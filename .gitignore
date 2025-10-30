@@ -1,0 +1,4 @@
+build/client/*
+build/server/*
+
+*/__pycache__/*

@@ -1,0 +1,120 @@
+rem **** 
+rem **** SPAWNER TEMPLATES SSM of existing templates ***
+rem ****************************************************
+
+
+rem ----------------------------------------- 
+rem ---  CloudbusImp  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner CloudbusImp
+ObjectTemplate.setObjectTemplate 1 cloudbus
+ObjectTemplate.setObjectTemplate 2 cloudbus
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 135
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 4
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  CloudcarmineImp  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner CloudcarmineImp
+ObjectTemplate.setObjectTemplate 1 cloudcar
+ObjectTemplate.setObjectTemplate 2 cloudcar
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 4
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  CloudbusReb  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner CloudbusReb
+ObjectTemplate.setObjectTemplate 1 cloudbus
+ObjectTemplate.setObjectTemplate 2 cloudbus
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 135
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 4
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  CloudcarmineReb  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner CloudcarmineReb
+ObjectTemplate.setObjectTemplate 1 cloudcar
+ObjectTemplate.setObjectTemplate 2 cloudcar
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 4
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Cloudcarplatforms  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Cloudcarplatforms
+ObjectTemplate.setObjectTemplate 1 cloudcar
+ObjectTemplate.setObjectTemplate 2 cloudcar
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+
+
+rem **** 
+rem ***** Various SSM work *****
+rem ****************************
+
+
+rem **** Make the MedUnit 'transparant' so you can't run into them;
+rem ****
+ObjectTemplate.Active MedUnit
+ObjectTemplate.hasCollisionPhysics 0
+
+
+rem **** Make the Turbo-Laser entry and soldier-exit facing
+rem **** the (MouseDroidControl) console;
+rem ****
+ObjectTemplate.Active TurboLaser
+ObjectTemplate.setSoldierExitLocation -3/-36.15/0 -90/0/0
+
+ObjectTemplate.Active Turbolasercomplex
+ObjectTemplate.setActiveTemplate 0
+ObjectTemplate.setPosition -3/-36.15/0
+ObjectTemplate.setEntryRadius 2.5
+
+
+rem **** Make the Green/A-wing enter at greater distances;
+rem      (The 'Green' A-wing entry radius is allready 6 by default)
+rem ****
+ObjectTemplate.Active AWingEntry
+ObjectTemplate.setEntryRadius 7
+
+
+rem **** Make the MouseDroidControl enter at closer distance and make the
+rem **** soldier-exit facing the console instead of next to it;
+rem ****
+ObjectTemplate.Active MouseDroidControl_Entry
+ObjectTemplate.setEntryRadius 2.25
+
+ObjectTemplate.Active MouseDroidControl
+ObjectTemplate.setSoldierExitLocation 0/0.5/-2.5 0/0/0
