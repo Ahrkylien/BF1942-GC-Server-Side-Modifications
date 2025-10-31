@@ -75,7 +75,7 @@ ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.maxNrOfObjectSpawned 3
 ObjectTemplate.teamOnVehicle 0
 
 
@@ -107,7 +107,7 @@ rem **** Make the Green/A-wing enter at greater distances;
 rem      (The 'Green' A-wing entry radius is allready 6 by default)
 rem ****
 ObjectTemplate.Active AWingEntry
-ObjectTemplate.setEntryRadius 7
+ObjectTemplate.setEntryRadius 7.5
 
 
 rem **** Make the MouseDroidControl enter at closer distance and make the

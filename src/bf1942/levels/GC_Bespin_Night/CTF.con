@@ -1,17 +1,13 @@
-
 rem Imp flag
 object.create gebase
-object.absolutePosition 772.13/268.30/1004.27
+object.absolutePosition 877.8/280/1046
 
 rem Reb flag
 object.create usbase
-object.absolutePosition 1240.58/268.30/1004.27
+object.absolutePosition 1134.4/280/1046
 
 
-
-
-
-
+rem **** Use vehicles for spawnpoints
 ObjectTemplate.create ObjectSpawner spawner
 ObjectTemplate.setObjectTemplate 1 yt600-3
 ObjectTemplate.setObjectTemplate 2 yt600
@@ -23,10 +19,7 @@ objecttemplate.timetolive 9999
 objecttemplate.distance 9999
 
 
-
-
 rem **** Always spawn without entering these vehicles
-rem ****
 ObjectTemplate.Active yt600rebspawn
 ObjectTemplate.SetEnterOnSpawn 0
 
@@ -35,7 +28,6 @@ ObjectTemplate.SetEnterOnSpawn 0
 
 
 rem **** Make it impossible to enter the Spawner vehicles
-rem ****
 ObjectTemplate.Active yt600Entry
 ObjectTemplate.setEntryRadius 0
 
@@ -48,87 +40,106 @@ ObjectTemplate.removeTemplate 1
 
 
 
+rem ###  Imperial Soldier Spawns ###
 
-
-rem ----------------------------------------- 
-rem ---  Imperial_Platform_Spawn1  ---
-rem ----------------------------------------- 
+rem ---  Platform
 Object.create yt600impspawn2
-Object.absolutePosition 758.55/270.25/1004.39
+Object.absolutePosition 758.55/269.3/1004.39
 Object.rotation 90.00/0.00/0.00
 
-rem ----------------------------------------- 
-rem ---  Imperial_Platform_Spawn2  ---
-rem ----------------------------------------- 
+rem ---  Platform
 Object.create yt600impspawn2
-Object.absolutePosition 771.93/268.29/994.33
+Object.absolutePosition 771.93/269.3/994.33
 Object.rotation 90.00/0.00/0.00
 
-rem ----------------------------------------- 
-rem ---  Imperial_Platform_Spawn3  ---
-rem ----------------------------------------- 
+rem ---  Platform
 Object.create yt600impspawn2
-Object.absolutePosition 772.36/268.30/1013.55
+Object.absolutePosition 772.36/269.3/1013.55
 Object.rotation 90.00/0.00/0.00
 
-rem ----------------------------------------- 
-rem ---  Imperial_Platform_Spawn4  ---
-rem ----------------------------------------- 
+rem ---  Platform
 Object.create yt600impspawn2
-Object.absolutePosition 802.52/268.32/1011.94
+Object.absolutePosition 802.52/269.3/1011.94
 Object.rotation 270.00/0.00/0.00
 
-rem ----------------------------------------- 
-rem ---  Imperial_Platform_Spawn5  ---
-rem ----------------------------------------- 
+rem ---  Platform
 Object.create yt600impspawn2
-Object.absolutePosition 802.42/268.32/996.38
+Object.absolutePosition 802.42/269.3/996.38
 Object.rotation 270.00/0.00/0.00
 
+rem ---  Platform (walkway)
+rem Object.create yt600impspawn2
+rem Object.absolutePosition 914.05/276.4/1019.35
+rem Object.rotation 90.00/0.00/0.00
+
+rem ---  Platform (walkway)
+rem Object.create yt600impspawn2
+rem Object.absolutePosition 870/282/1045
+rem Object.rotation 90.00/0.00/0.00
+
+rem ---  Behind Statue
+rem Object.create yt600impspawn2
+rem Object.absolutePosition 1004.80/268.65/939.56
+rem Object.rotation 0.00/0.00/0.00
+
+rem ---  Courtyard
+rem Object.create yt600impspawn2
+rem Object.absolutePosition 958.79/253/898.20
+rem Object.rotation 90.00/0.00/0.00
 
 
+rem ###  Rebel Soldier Spawns ###
 
-rem ----------------------------------------- 
-rem ---  Rebel_Platform_Spawn1  ---
-rem ----------------------------------------- 
+rem ---  Platform
 Object.create yt600rebspawn
-Object.absolutePosition 1251.18/268.29/1004.33
+Object.absolutePosition 1251.18/269.3/1004.33
 Object.rotation 270.00/0.00/0.00
 
-rem ----------------------------------------- 
-rem ---  Rebel_Platform_Spawn2  ---
-rem ----------------------------------------- 
+rem ---  Platform
 Object.create yt600rebspawn
-Object.absolutePosition 1240.00/268.31/995.10
+Object.absolutePosition 1240.00/269.3/995.10
 Object.rotation 270.00/0.00/0.00
 
-rem ----------------------------------------- 
-rem ---  Rebel_Platform_Spawn3  ---
-rem ----------------------------------------- 
+rem ---  Platform
 Object.create yt600rebspawn
-Object.absolutePosition 1240.28/268.31/1013.72
+Object.absolutePosition 1240.28/269.3/1013.72
 Object.rotation 270.00/0.00/0.00
 
-rem ----------------------------------------- 
-rem ---  Rebel_Platform_Spawn4  ---
-rem ----------------------------------------- 
+rem ---  Platform
 Object.create yt600rebspawn
-Object.absolutePosition 1210.15/268.32/1012.03
+Object.absolutePosition 1210.15/269.3/1012.03
 Object.rotation 90.00/0.00/0.00
 
-rem ----------------------------------------- 
-rem ---  Rebel_Platform_Spawn5  ---
-rem ----------------------------------------- 
+rem ---  Platform
 Object.create yt600rebspawn
-Object.absolutePosition 1209.69/268.32/996.21
+Object.absolutePosition 1209.69/269.3/996.21
 Object.rotation 90.00/0.00/0.00
 
+rem ---  Platform (walkway)
+rem Object.create yt600rebspawn
+rem Object.absolutePosition 1098.45/276/1021.36
+rem Object.rotation 180.00/0.00/0.00
+
+rem ---  Platform (walkway)
+rem Object.create yt600rebspawn
+rem Object.absolutePosition 1077.5/276/978.5
+rem Object.rotation -135.00/0.00/0.00
+
+rem ---  Behind Statue
+rem Object.create yt600rebspawn
+rem Object.absolutePosition 1007.82/268.65/939.68
+rem Object.rotation 0.00/0.00/0.00
+
+rem ---  Courtyard
+rem Object.create yt600rebspawn
+rem Object.absolutePosition 1050/253/890
+rem Object.rotation 270.00/0.00/0.00
 
 
 
 
+rem ###  Spawn vehicles needed for ctf spawns ###
 
-rem ** Spawn vehicles needed for ctf spawns **
 Object.create spawner
 Object.absolutePosition 772.13/2000/1004.27
 Object.setTeam 1
@@ -146,10 +157,6 @@ rem ****
 rem **** SPAWNER TEMPLATES SSM of NEW templates ***
 rem ****************************************************
 
-
-rem ----------------------------------------- 
-rem ---  New_Object_Turbolaser  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_Turbolaser
 ObjectTemplate.setObjectTemplate 1 turbolaser
 ObjectTemplate.setObjectTemplate 2 turbolaser
@@ -162,9 +169,6 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  New_Object_Mousedroid  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_Mousedroid
 ObjectTemplate.setObjectTemplate 1 mousedroidcontrol
 ObjectTemplate.setObjectTemplate 2 mousedroidcontrol
@@ -177,9 +181,6 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  New_Object_R5_droid  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_R5_droid
 ObjectTemplate.setObjectTemplate 1 r5d4droidimperial
 ObjectTemplate.setObjectTemplate 2 r5d4droid
@@ -192,9 +193,6 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  New_Object_R5_droid_2  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_R5_droid_2
 ObjectTemplate.setObjectTemplate 1 r5d4droidimperial
 ObjectTemplate.setObjectTemplate 2 r5d4droid
@@ -207,9 +205,6 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 2
 ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  New_Object_R5_droid_control  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_R5_droid_control
 ObjectTemplate.setObjectTemplate 1 r5d4controlimperial
 ObjectTemplate.setObjectTemplate 2 r5d4control
@@ -222,9 +217,6 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  New_Object_IMDS  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_IMDS
 ObjectTemplate.setObjectTemplate 1 i.m.d.s
 ObjectTemplate.setObjectTemplate 2 i.m.d.s
@@ -237,9 +229,6 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  New_Object_Mousedroid_dummy  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_Mousedroid_dummy
 ObjectTemplate.setObjectTemplate 1 mousedroidcontrol
 ObjectTemplate.setObjectTemplate 2 mousedroidcontrol
@@ -252,9 +241,6 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  New_Object_Green  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_Green
 ObjectTemplate.setObjectTemplate 1 green
 ObjectTemplate.setObjectTemplate 2 green
@@ -268,9 +254,6 @@ ObjectTemplate.maxNrOfObjectSpawned 4
 ObjectTemplate.teamOnVehicle 0
 ObjectTemplate.holdObject 1
 
-rem ----------------------------------------- 
-rem ---  New_Object_XwingTieAvenger  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_XwingTieAvenger
 ObjectTemplate.setObjectTemplate 1 avenger
 ObjectTemplate.setObjectTemplate 2 x-wing
@@ -283,9 +266,6 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  New_Object_ImpTrolley  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_ImpTrolley
 ObjectTemplate.setObjectTemplate 1 imptrolley
 ObjectTemplate.setObjectTemplate 2 imptrolley
@@ -298,11 +278,9 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 3
 ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  New_Object_EscapePod_Imp  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_EscapePod_Imp
 ObjectTemplate.setObjectTemplate 1 impescapepod
+ObjectTemplate.setObjectTemplate 2 impescapepod
 ObjectTemplate.MinSpawnDelay 5
 ObjectTemplate.MaxSpawnDelay 10
 ObjectTemplate.SpawnDelayAtStart 0
@@ -310,13 +288,11 @@ ObjectTemplate.TimeToLive 90
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 4
-ObjectTemplate.teamOnVehicle 1
+ObjectTemplate.teamOnVehicle 0
 ObjectTemplate.holdObject 1
 
-rem ----------------------------------------- 
-rem ---  New_Object_EscapePod_Reb  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_EscapePod_Reb
+ObjectTemplate.setObjectTemplate 1 escapepod
 ObjectTemplate.setObjectTemplate 2 escapepod
 ObjectTemplate.MinSpawnDelay 5
 ObjectTemplate.MaxSpawnDelay 10
@@ -325,12 +301,9 @@ ObjectTemplate.TimeToLive 90
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 4
-ObjectTemplate.teamOnVehicle 2
+ObjectTemplate.teamOnVehicle 0
 ObjectTemplate.holdObject 1
 
-rem ----------------------------------------- 
-rem ---  New_Object_HeavyAssaultKit  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_HeavyAssaultKit
 ObjectTemplate.setObjectTemplate 1 tl-21_kit
 ObjectTemplate.setObjectTemplate 2 rebel_tracker
@@ -343,9 +316,6 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 4
 ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  New_Object_SniperKit  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_SniperKit
 ObjectTemplate.setObjectTemplate 1 empire_scout_nocamo
 ObjectTemplate.setObjectTemplate 2 rebel_scout_nocamo
@@ -358,9 +328,6 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 2
 ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  New_Object_Assault_kit  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_Assault_kit
 ObjectTemplate.setObjectTemplate 1 empire_trooper
 ObjectTemplate.setObjectTemplate 2 rebel_trooper
@@ -373,9 +340,6 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 4
 ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  New_Object_AT_kit  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_AT_kit
 ObjectTemplate.setObjectTemplate 1 empire_at
 ObjectTemplate.setObjectTemplate 2 rebel_at
@@ -388,11 +352,9 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 4
 ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  New_Object_Tie  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_Tie
 ObjectTemplate.setObjectTemplate 1 tiefighter
+ObjectTemplate.setObjectTemplate 2 tiefighter
 ObjectTemplate.MinSpawnDelay 30
 ObjectTemplate.MaxSpawnDelay 40
 ObjectTemplate.SpawnDelayAtStart 0
@@ -402,9 +364,6 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  New_Object_Ewing  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_Ewing
 ObjectTemplate.setObjectTemplate 1 ewing
 ObjectTemplate.setObjectTemplate 2 ewing
@@ -417,9 +376,6 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  New_Object_Eweb  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner New_Object_Eweb
 ObjectTemplate.setObjectTemplate 1 eweb
 ObjectTemplate.setObjectTemplate 2 eweb
@@ -432,6 +388,29 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
+ObjectTemplate.create ObjectSpawner Cloudbus
+ObjectTemplate.setObjectTemplate 1 cloudbus
+ObjectTemplate.setObjectTemplate 2 cloudbus
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 90
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 3
+ObjectTemplate.teamOnVehicle 0
+
+ObjectTemplate.create ObjectSpawner Trolley
+ObjectTemplate.setObjectTemplate 1 EchoTrolley
+ObjectTemplate.setObjectTemplate 2 EchoTrolley
+ObjectTemplate.SpawnDelay 4
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 90
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 5
+ObjectTemplate.teamOnVehicle 0
+
 
 
 rem 
@@ -441,9 +420,9 @@ rem ******************************************
 
 
 rem ----------------------------------------- 
-rem ---  CloudbusImp  ---
+rem ---  Cloudbus Imp  ---
 rem ----------------------------------------- 
-Object.create CloudbusImp
+Object.create Cloudbus
 Object.absolutePosition 277.69/282.30/1057.73
 Object.rotation 270.00/0.00/0.00
 Object.setTeam 1
@@ -457,9 +436,9 @@ Object.rotation 9.61/0.00/0.00
 Object.setTeam 1
 
 rem ----------------------------------------- 
-rem ---  CloudbusReb  ---
+rem ---  Cloudbus reb  ---
 rem ----------------------------------------- 
-Object.create CloudbusReb
+Object.create Cloudbus
 Object.absolutePosition 1765.39/282.30/937.57
 Object.rotation 90.00/0.00/0.00
 Object.setTeam 2
@@ -473,39 +452,35 @@ Object.rotation -166.40/0.00/0.00
 Object.setTeam 2
 
 rem ----------------------------------------- 
-rem ---  Cloudcarplatforms  ---
+rem ---  Cloudcarplatforms reb  ---
 rem ----------------------------------------- 
 Object.create Cloudcarplatforms
 Object.absolutePosition 1260.62/270.40/1010.98
 Object.rotation 45.00/0.00/0.00
-rem Object.setOSId 2
-Object.setTeam 1
+Object.setTeam 2
 
 rem ----------------------------------------- 
-rem ---  Cloudcarplatforms  ---
+rem ---  Cloudcarplatforms reb  ---
 rem ----------------------------------------- 
 Object.create Cloudcarplatforms
 Object.absolutePosition 1259.49/270.40/995.11
 Object.rotation 135.00/0.00/0.00
-rem Object.setOSId 2
-Object.setTeam 1
+Object.setTeam 2
 
 rem ----------------------------------------- 
-rem ---  Cloudcarplatforms  ---
+rem ---  Cloudcarplatforms imp  ---
 rem ----------------------------------------- 
 Object.create Cloudcarplatforms
 Object.absolutePosition 750.28/270.40/994.30
 Object.rotation 225.00/0.00/0.00
-rem Object.setOSId 1
 Object.setTeam 1
 
 rem ----------------------------------------- 
-rem ---  Cloudcarplatforms  ---
+rem ---  Cloudcarplatforms imp  ---
 rem ----------------------------------------- 
 Object.create Cloudcarplatforms
 Object.absolutePosition 749.02/270.40/1012.16
 Object.rotation -45.00/0.00/0.00
-rem Object.setOSId 1
 Object.setTeam 1
 
 
@@ -515,13 +490,49 @@ rem **** SPAWNERS SSM of NEW Spawners ***
 rem *************************************
 
 
+rem --- Imperial Base South
+Object.create Trolley
+Object.absolutePosition 760.87/269.27/986.25
+Object.rotation 90/0/0
+Object.setTeam 1
+
+rem --- Imperial Base North
+Object.create Trolley
+Object.absolutePosition 759.41/269.269/1024.49
+Object.rotation 90/0/0
+Object.setTeam 1
+
+rem --- Imperial Base below flag
+Object.create Trolley
+Object.absolutePosition 881.37/252.856/1058.75
+Object.rotation 90/0/0
+Object.setTeam 1
+
+rem --- Rebel Base South
+Object.create Trolley
+Object.absolutePosition 1251.33/269.27/986.25
+Object.rotation 270/0/0
+Object.setTeam 2
+
+rem --- Rebel Base North
+Object.create Trolley
+Object.absolutePosition 1252.79/269.269/1024.49
+Object.rotation 270/0/0
+Object.setTeam 2
+
+rem --- Rebel Base below flag
+Object.create Trolley
+Object.absolutePosition 1130.83/252.856/1058.75
+Object.rotation 270/0/0
+Object.setTeam 2
+
+
 rem ----------------------------------------- 
 rem ---  New_Object_Mousedroid  ---
 rem ----------------------------------------- 
 Object.create New_Object_Mousedroid
 Object.absolutePosition 1211.45/280.46/1009.00
 Object.rotation 0.00/0.00/0.00
-rem Object.setOSId 2
 Object.setTeam 2
 
 rem ----------------------------------------- 
@@ -530,7 +541,6 @@ rem -----------------------------------------
 Object.create New_Object_Mousedroid
 Object.absolutePosition 800.69/280.46/999.35
 Object.rotation 180.00/0.00/0.00
-rem Object.setOSId 1
 Object.setTeam 1
 
 rem ----------------------------------------- 
@@ -539,7 +549,6 @@ rem -----------------------------------------
 Object.create New_Object_R5_droid
 Object.absolutePosition 1117.36/251.96/1045.01
 Object.rotation -21.66/0.00/0.00
-rem Object.setOSId 2
 Object.setTeam 2
 
 rem ----------------------------------------- 
@@ -548,7 +557,6 @@ rem -----------------------------------------
 Object.create New_Object_R5_droid
 Object.absolutePosition 895.23/251.96/1045.50
 Object.rotation 18.48/0.00/0.00
-rem Object.setOSId 1
 Object.setTeam 1
 
 rem ----------------------------------------- 
@@ -573,7 +581,6 @@ rem -----------------------------------------
 Object.create New_Object_R5_droid_control
 Object.absolutePosition 1243.12/268.32/981.70
 Object.rotation 34.43/0.00/0.00
-rem Object.setOSId 2
 Object.setTeam 2
 
 rem ----------------------------------------- 
@@ -582,7 +589,6 @@ rem -----------------------------------------
 Object.create New_Object_R5_droid_control
 Object.absolutePosition 769.39/268.32/1027.37
 Object.rotation 180.41/0.00/0.00
-rem Object.setOSId 1
 Object.setTeam 1
 
 rem ----------------------------------------- 
@@ -591,7 +597,6 @@ rem -----------------------------------------
 Object.create New_Object_IMDS
 Object.absolutePosition 1041.32/255.67/898.03
 Object.rotation 180.00/0.00/0.00
-rem Object.setOSId 7
 Object.setTeam 1
 
 rem ----------------------------------------- 
@@ -600,7 +605,6 @@ rem -----------------------------------------
 Object.create New_Object_IMDS
 Object.absolutePosition 971.18/255.67/898.03
 Object.rotation 180.00/0.00/0.00
-rem Object.setOSId 7
 Object.setTeam 1
 
 rem ----------------------------------------- 
@@ -609,8 +613,7 @@ rem -----------------------------------------
 Object.create New_Object_Green
 Object.absolutePosition 1017.32/243.97/1004.12
 Object.rotation -90.00/90.00/0.00
-rem Object.setOSId 5
-Object.setTeam 1
+Object.setTeam 2
 
 rem ----------------------------------------- 
 rem ---  New_Object_Green  ---
@@ -618,25 +621,22 @@ rem -----------------------------------------
 Object.create New_Object_Green
 Object.absolutePosition 995.15/243.97/1004.20
 Object.rotation 90.00/90.00/0.00
-rem Object.setOSId 5
-Object.setTeam 1
+Object.setTeam 2
 
 rem ----------------------------------------- 
-rem ---  New_Object_EscapePod_Imp  ---
+rem ---  New_Object_EscapePod_Imp reb  ---
 rem ----------------------------------------- 
 Object.create New_Object_EscapePod_Imp
 Object.absolutePosition 1237.51/268.04/1032.28
 Object.rotation 51.85/90.00/0.00
-rem Object.setOSId 2
 Object.setTeam 2
 
 rem ----------------------------------------- 
-rem ---  New_Object_EscapePod_Imp  ---
+rem ---  New_Object_EscapePod_Imp imp  ---
 rem ----------------------------------------- 
 Object.create New_Object_EscapePod_Imp
 Object.absolutePosition 766.34/268.04/974.89
 Object.rotation -70.17/90.00/0.00
-rem Object.setOSId 1
 Object.setTeam 1
 
 rem ----------------------------------------- 
@@ -645,8 +645,7 @@ rem -----------------------------------------
 Object.create New_Object_EscapePod_Reb
 Object.absolutePosition 1245.95/268.16/1033.46
 Object.rotation 253.51/90.00/0.00
-rem Object.setOSId 2
-Object.setTeam 2
+Object.setTeam 1
 
 rem ----------------------------------------- 
 rem ---  New_Object_EscapePod_Reb  ---
@@ -654,7 +653,6 @@ rem -----------------------------------------
 Object.create New_Object_EscapePod_Reb
 Object.absolutePosition 774.79/268.16/976.20
 Object.rotation -85.89/90.00/0.00
-rem Object.setOSId 1
 Object.setTeam 1
 
 rem ----------------------------------------- 
@@ -663,7 +661,6 @@ rem -----------------------------------------
 Object.create New_Object_SniperKit
 Object.absolutePosition 1213.14/281.34/999.70
 Object.rotation 180.00/227.00/-90.00
-rem Object.setOSId 2
 Object.setTeam 2
 
 rem ----------------------------------------- 
@@ -672,7 +669,6 @@ rem -----------------------------------------
 Object.create New_Object_HeavyAssaultKit
 Object.absolutePosition 1213.08/281.48/1005.45
 Object.rotation 180.00/45.00/0.00
-rem Object.setOSId 2
 Object.setTeam 2
 
 rem ----------------------------------------- 
@@ -681,7 +677,6 @@ rem -----------------------------------------
 Object.create New_Object_Assault_kit
 Object.absolutePosition 1213.14/281.34/1001.50
 Object.rotation 180.00/227.00/-90.00
-rem Object.setOSId 2
 Object.setTeam 2
 
 rem ----------------------------------------- 
@@ -690,7 +685,6 @@ rem -----------------------------------------
 Object.create New_Object_AT_kit
 Object.absolutePosition 1213.14/281.34/1003.47
 Object.rotation 180.00/227.00/-90.00
-rem Object.setOSId 2
 Object.setTeam 2
 
 rem ----------------------------------------- 
@@ -739,7 +733,6 @@ rem -----------------------------------------
 Object.create New_Object_Tie
 Object.absolutePosition 743.65/272.30/1003.87
 Object.rotation 90.00/0.00/0.00
-rem Object.setOSId 1
 Object.setTeam 1
 
 rem ----------------------------------------- 
@@ -748,7 +741,6 @@ rem -----------------------------------------
 Object.create New_Object_Ewing
 Object.absolutePosition 1266.70/270.16/1002.83
 Object.rotation -90.00/0.00/0.00
-rem Object.setOSId 2
 Object.setTeam 2
 
 rem ----------------------------------------- 
@@ -757,7 +749,6 @@ rem -----------------------------------------
 Object.create New_Object_ImpTrolley
 Object.absolutePosition 809.12/252.65/1004.34
 Object.rotation 0.00/0.00/0.00
-rem Object.setOSId 1
 Object.setTeam 1
 
 rem ----------------------------------------- 
@@ -766,7 +757,6 @@ rem -----------------------------------------
 Object.create New_Object_ImpTrolley
 Object.absolutePosition 1202.91/252.65/1004.29
 Object.rotation 180.00/0.00/0.00
-rem Object.setOSId 2
 Object.setTeam 2
 
 rem ----------------------------------------- 
@@ -783,7 +773,6 @@ rem -----------------------------------------
 Object.create New_Object_SniperKit
 Object.absolutePosition 799.20/281.34/1008.80
 Object.rotation 180.00/-45.00/90.00
-rem Object.setOSId 1
 Object.setTeam 1
 
 rem ----------------------------------------- 
@@ -801,7 +790,6 @@ rem -----------------------------------------
 Object.create New_Object_HeavyAssaultKit
 Object.absolutePosition 799.24/281.53/1002.24
 Object.rotation 0.00/45.00/0.00
-rem Object.setOSId 1
 Object.setTeam 1
 
 rem ----------------------------------------- 
@@ -810,7 +798,6 @@ rem -----------------------------------------
 Object.create New_Object_AT_kit
 Object.absolutePosition 799.20/281.34/1004.22
 Object.rotation 180.00/-45.00/90.00
-rem Object.setOSId 1
 Object.setTeam 1
 
 rem ----------------------------------------- 
@@ -835,7 +822,6 @@ rem -----------------------------------------
 Object.create New_Object_Eweb
 Object.absolutePosition 1000.94/251.98/864.08
 Object.rotation 3.58/0.00/0.00
-rem Object.setOSId 7
 Object.setTeam 1
 
 rem ----------------------------------------- 
@@ -844,7 +830,6 @@ rem -----------------------------------------
 Object.create New_Object_HeavyAssaultKit
 Object.absolutePosition 1011.77/275.06/1027.53
 Object.rotation 44.67/0.00/-73.98
-rem Object.setOSId 5
 Object.setTeam 2
 
 rem ----------------------------------------- 
@@ -853,7 +838,6 @@ rem -----------------------------------------
 Object.create New_Object_AT_kit
 Object.absolutePosition 1000.65/275.02/1027.70
 Object.rotation -44.61/1.55/0.18
-rem Object.setOSId 5
 Object.setTeam 2
 
 
@@ -863,7 +847,7 @@ rem ----------------------------------------------
 Object.create New_Object_Mousedroid_dummy
 Object.absolutePosition 1157.61/280.74/1011.26
 Object.rotation 0.00/0.00/0.00
-Object.setTeam 1
+Object.setTeam 2
 
 
 rem ----------------------------------------- 
@@ -871,7 +855,6 @@ rem ---  New_Object_Turbolaser (Reb side) ---
 rem ----------------------------------------- 
 Object.create New_Object_Turbolaser
 Object.absolutePosition 1157.63/317.87/1004.16
-
 Object.rotation 90.00/0.00/0.00
 rem Object.setOSId 2
 Object.setTeam 2
@@ -892,5 +875,4 @@ rem -----------------------------------------
 Object.create New_Object_Turbolaser
 Object.absolutePosition 854.69/317.87/1004.16
 Object.rotation -90.00/0.00/0.00
-rem Object.setOSId 1
 Object.setTeam 1
