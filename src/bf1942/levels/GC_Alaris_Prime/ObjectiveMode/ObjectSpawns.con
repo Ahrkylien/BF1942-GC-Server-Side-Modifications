@@ -30,6 +30,18 @@ Object.absolutePosition 250/2000/500
 Object.setTeam 2
 
 
+ObjectTemplate.create ObjectSpawner ATST_Spawner
+ObjectTemplate.setObjectTemplate 1 ATST
+ObjectTemplate.setObjectTemplate 2 ATST
+ObjectTemplate.SpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 20
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 1
+
+
 rem ----------------------------------------- 
 rem ---  Speederbikes  ---
 rem ----------------------------------------- 
@@ -75,11 +87,31 @@ Object.rotation 10.90/0.00/0.00
 Object.setOSId 10
 Object.setTeam 1
 
-rem ----------------------------------------- 
-rem ---  DTAP_Gain135_Spawner  ---
-rem ----------------------------------------- 
+rem ---  ATST - Imperial Base (Imperial_Ion_Cannon)
+Object.create ATST_Spawner
+Object.absolutePosition 638.506/230.543/763.912
+Object.rotation 180/0/0
+Object.setOSId 1
+
+rem ---  Mobile Spawnpoint - Gain-125 - Rebel Base (Temple)
 Object.create DTAP_Gain135_Spawner
 Object.absolutePosition 764.51/126.98/392.81
 Object.rotation -88.01/0.00/0.00
 Object.setOSId 4
 Object.setTeam 0
+
+rem ---  Speeders Rebel Base (Temple)
+Object.create Speederbikes
+Object.absolutePosition 768.73/128.0/384.28
+Object.rotation -88/0/0
+Object.setOSId 4
+
+Object.create Speederbikes
+Object.absolutePosition 770.516/128.0/373.786
+Object.rotation -88/0/0
+Object.setOSId 4
+
+Object.create Speederbikes
+Object.absolutePosition 772.385/128.0/368.843
+Object.rotation -88/0/0
+Object.setOSId 4
