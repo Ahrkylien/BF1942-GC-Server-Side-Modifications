@@ -1,0 +1,1152 @@
+
+rem ----------------------------------------- 
+rem ---  Firehawk  ---
+rem ----------------------------------------- 
+Object.create Firehawk
+Object.absolutePosition 758.07/69.26/1427.11
+Object.rotation -448.63/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Firehawk  ---
+rem ----------------------------------------- 
+Object.create Firehawk
+Object.absolutePosition 808.00/69.33/1446.91
+Object.rotation 177.06/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Tie_Bomber  ---
+rem ----------------------------------------- 
+Object.create Tie_Bomber
+Object.absolutePosition 878.10/69.91/1415.74
+Object.rotation -124.01/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem -- This spawner does not seem to work, remmed out
+beginrem
+rem ----------------------------------------- 
+rem ---  Miau  ---
+rem ----------------------------------------- 
+Object.create Miau
+Object.absolutePosition 650.54/105.87/1255.77
+Object.rotation -180.92/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+endrem
+
+rem ----------------------------------------- 
+rem ---  AP_Turret  ---
+rem ----------------------------------------- 
+Object.create AP_Turret
+Object.absolutePosition 1304.39/93.74/371.43
+Object.rotation -96.58/0.00/0.00
+Object.setOSId 2
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  AP_Turret  ---
+rem ----------------------------------------- 
+Object.create AP_Turret
+Object.absolutePosition 1296.11/93.65/332.20
+Object.rotation -96.58/0.00/0.00
+Object.setOSId 2
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  T_3b_start  ---
+rem ----------------------------------------- 
+Object.create T_3b_start
+Object.absolutePosition 1307.22/94.20/358.94
+Object.rotation -90.91/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  T_3ba  ---
+rem ----------------------------------------- 
+Object.create T_3ba
+Object.absolutePosition 1293.90/93.68/310.84
+Object.rotation -433.28/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Gain_Speeder  ---
+rem ----------------------------------------- 
+Object.create Gain_Speeder
+Object.absolutePosition 1302.34/93.71/394.95
+Object.rotation -106.65/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Gain_Speeder  ---
+rem ----------------------------------------- 
+Object.create Gain_Speeder
+Object.absolutePosition 1307.21/93.66/290.36
+Object.rotation -69.41/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Enterance_turrets  ---
+rem ----------------------------------------- 
+Object.create Enterance_turrets
+Object.absolutePosition 792.84/72.47/549.51
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Enterance_turrets  ---
+rem ----------------------------------------- 
+Object.create Enterance_turrets
+Object.absolutePosition 747.74/72.38/584.61
+Object.rotation 92.08/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Enterance_turrets  ---
+rem ----------------------------------------- 
+Object.create Enterance_turrets
+Object.absolutePosition 676.24/93.70/1184.63
+Object.rotation -34.43/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Enterance_turrets  ---
+rem ----------------------------------------- 
+Object.create Enterance_turrets
+Object.absolutePosition 666.46/93.77/1177.98
+Object.rotation -35.84/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Enterance_turrets  ---
+rem ----------------------------------------- 
+Object.create Enterance_turrets
+Object.absolutePosition 918.18/72.96/1049.81
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ******************************************
+rem ** Moved the X-wing to a different position, this is now a Y_wing spawner, and rotated more towards the north-east
+rem (was first: Y_wing)
+rem ******************************************
+Object.create Tie_Fightere
+Object.absolutePosition 1337.37/97.03/373.39
+Object.rotation 65.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  T_3b_start  ---
+rem ----------------------------------------- 
+Object.create T_3b_start
+Object.absolutePosition 1306.36/94.12/346.47
+Object.rotation -90.13/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Enterance_turrets  ---
+rem ----------------------------------------- 
+Object.create Enterance_turrets
+Object.absolutePosition 797.30/88.53/1484.55
+Object.rotation -182.97/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Enterance_turrets  ---
+rem ----------------------------------------- 
+Object.create Enterance_turrets
+Object.absolutePosition 841.97/88.48/1483.81
+Object.rotation -182.97/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Enterance_turrets  ---
+rem ----------------------------------------- 
+Object.create Enterance_turrets
+Object.absolutePosition 876.66/95.37/1542.36
+Object.rotation 182.14/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Enterance_turrets  ---
+rem ----------------------------------------- 
+Object.create Enterance_turrets
+Object.absolutePosition 876.17/95.36/1517.14
+Object.rotation 92.55/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  T_3b_canyon  ---
+rem ----------------------------------------- 
+Object.create Forward_firehawks
+Object.absolutePosition 825.03/75.23/735.21
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  T_3b_canyon  ---
+rem ----------------------------------------- 
+Object.create Forward_firehawks
+Object.absolutePosition 809.30/75.22/734.01
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Air_base_gunships  ---
+rem ----------------------------------------- 
+Object.create Air_base_gunships
+Object.absolutePosition 755.67/73.65/541.66
+Object.rotation 28.17/0/0
+Object.setOSId 4
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Forward_firehawks  ---
+rem ----------------------------------------- 
+Object.create Forward_firehawks
+Object.absolutePosition 906.68/65.52/1086.84
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Forward_T_3b  ---
+rem ----------------------------------------- 
+Object.create Forward_T_3b
+Object.absolutePosition 747.15/65.14/1218.55
+Object.rotation 172.44/0.00/0.00
+Object.setOSId 7
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Forward_T_3b  ---
+rem ----------------------------------------- 
+Object.create Forward_T_3b
+Object.absolutePosition 762.93/64.54/1217.77
+Object.rotation 173.76/0.00/0.00
+Object.setOSId 7
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Turbolasers  ---
+rem ----------------------------------------- 
+Object.create Turbolasers
+Object.absolutePosition 818.84/63.58/1329.10
+Object.rotation -183.04/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Turbolasers  ---
+rem ----------------------------------------- 
+Object.create Turbolasers
+Object.absolutePosition 801.21/63.58/1330.82
+Object.rotation -180.04/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Turbolasers  ---
+rem ----------------------------------------- 
+Object.create Turbolasers
+Object.absolutePosition 711.25/99.62/1236.53
+Object.rotation 268.89/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Turbolasers  ---
+rem ----------------------------------------- 
+Object.create Turbolasers
+Object.absolutePosition 711.23/99.68/1248.08
+Object.rotation -448.06/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Turbolasers  ---
+rem ----------------------------------------- 
+Object.create Turbolasers
+Object.absolutePosition 855.76/69.22/1395.27
+Object.rotation 180.18/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  secret_missles  ---
+rem ----------------------------------------- 
+Object.create secret_missles
+Object.absolutePosition 672.78/109.72/1221.23
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  atst_Spawner  ---
+rem ----------------------------------------- 
+Object.create atst_Spawner
+Object.absolutePosition 771.63/72.53/600.81
+Object.rotation 0.29/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  atst_Spawner  ---
+rem ----------------------------------------- 
+Object.create atst_Spawner
+Object.absolutePosition 828.08/75.36/1367.92
+Object.rotation -92.27/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Ewebs  ---
+rem ----------------------------------------- 
+Object.create Ewebs
+Object.absolutePosition 784.20/91.10/416.11
+Object.rotation 89.76/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Ewebs  ---
+rem ----------------------------------------- 
+Object.create Ewebs
+Object.absolutePosition 783.99/91.07/395.29
+Object.rotation 88.37/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  IMDS  ---
+rem ----------------------------------------- 
+Object.create IMDS
+Object.absolutePosition 826.70/72.05/1333.45
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  IMDS  ---
+rem ----------------------------------------- 
+Object.create IMDS
+Object.absolutePosition 795.14/72.01/1333.59
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  IMDS  ---
+rem ----------------------------------------- 
+Object.create IMDS
+Object.absolutePosition 801.73/95.62/1493.94
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  IMDS  ---
+rem ----------------------------------------- 
+Object.create IMDS
+Object.absolutePosition 838.74/95.72/1493.70
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Ewebs  ---
+rem ----------------------------------------- 
+Object.create Ewebs
+Object.absolutePosition 673.59/94.07/1177.92
+Object.rotation -216.36/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Ewebs  ---
+rem ----------------------------------------- 
+Object.create Ewebs
+Object.absolutePosition 925.31/68.35/1333.27
+Object.rotation -178.33/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Ewebs  ---
+rem ----------------------------------------- 
+Object.create Ewebs
+Object.absolutePosition 890.05/65.69/1317.30
+Object.rotation -179.18/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Ewebs  ---
+rem ----------------------------------------- 
+Object.create Ewebs
+Object.absolutePosition 859.45/65.72/1297.20
+Object.rotation -179.98/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  IMDS  ---
+rem ----------------------------------------- 
+Object.create IMDS
+Object.absolutePosition 885.78/72.09/1400.34
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  IMDS  ---
+rem ----------------------------------------- 
+Object.create IMDS
+Object.absolutePosition 768.42/76.17/1370.89
+Object.rotation 46.87/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  IMDS  ---
+rem ----------------------------------------- 
+Object.create IMDS
+Object.absolutePosition 794.35/77.26/523.71
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  IMDS  ---
+rem ----------------------------------------- 
+Object.create IMDS
+Object.absolutePosition 745.80/77.22/524.31
+Object.rotation 1.38/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  IMDS  ---
+rem ----------------------------------------- 
+Object.create IMDS
+Object.absolutePosition 819.94/76.88/561.37
+Object.rotation -90.06/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  IMDS  ---
+rem ----------------------------------------- 
+Object.create IMDS
+Object.absolutePosition 722.05/76.94/564.61
+Object.rotation -268.30/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Enterance_turrets  ---
+rem ----------------------------------------- 
+Object.create Enterance_turrets
+Object.absolutePosition 754.51/72.50/601.75
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Enterance_turrets  ---
+rem ----------------------------------------- 
+Object.create Enterance_turrets
+Object.absolutePosition 796.79/72.50/602.41
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Ewebs  ---
+rem ----------------------------------------- 
+Object.create Ewebs
+Object.absolutePosition 913.09/68.22/1181.20
+Object.rotation -180.14/0.00/0.00
+Object.setOSId 7
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Ewebs  ---
+rem ----------------------------------------- 
+Object.create Ewebs
+Object.absolutePosition 894.99/66.58/1188.84
+Object.rotation 231.73/0.00/0.00
+Object.setOSId 7
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Turbolasers  ---
+rem ----------------------------------------- 
+Object.create Turbolasers
+Object.absolutePosition 895.21/66.33/1196.66
+Object.rotation -127.45/0.00/0.00
+Object.setOSId 7
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Tie_Fightere  ---
+rem ----------------------------------------- 
+Object.create Tie_Fightere
+Object.absolutePosition 768.53/73.42/1385.05
+Object.rotation 45.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  TL_21  ---
+rem ----------------------------------------- 
+Object.create TL_21
+Object.absolutePosition 915.62/70.79/1036.10
+Object.rotation -178.47/-79.78/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  TL_21  ---
+rem ----------------------------------------- 
+Object.create TL_21
+Object.absolutePosition 896.97/70.69/1036.10
+Object.rotation 276.20/-99.86/-99.32
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  TL_21  ---
+rem ----------------------------------------- 
+Object.create TL_21
+Object.absolutePosition 763.28/60.99/1240.06
+Object.rotation -182.12/-79.40/0.00
+Object.setOSId 7
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  TL_21  ---
+rem ----------------------------------------- 
+Object.create TL_21
+Object.absolutePosition 762.97/60.94/1240.07
+Object.rotation -180.15/-78.44/0.00
+Object.setOSId 7
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  TL_21  ---
+rem ----------------------------------------- 
+Object.create TL_21
+Object.absolutePosition 823.54/70.40/1348.01
+Object.rotation -96.77/-65.54/8.35
+Object.setOSId 6
+Object.setTeam 1
+
+beginrem
+rem ----------------------------------------- 
+rem ---  rebtrans_Spawn1  ---
+rem ----------------------------------------- 
+Object.create rebtrans_Spawn1
+Object.absolutePosition 1367.28/133.51/340.49
+Object.rotation -267.91/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  rebtrans_Spawn1  ---
+rem ----------------------------------------- 
+Object.create rebtrans_Spawn1
+Object.absolutePosition 1300.03/157.44/345.97
+Object.rotation -269.59/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+endrem
+
+
+rem ----------------------------------------- 
+rem ---  rebtrans_Spawn1  ---
+rem ----------------------------------------- 
+Object.create rebtrans_Spawn1
+Object.absolutePosition 1358.51/230/295.84
+Object.rotation 91.32/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  rebtrans_Spawn1  ---
+rem ----------------------------------------- 
+Object.create rebtrans_Spawn1
+Object.absolutePosition 1337.88/250/390.66
+Object.rotation 90.62/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+
+rem ----------------------------------------- 
+rem ---  Turbolasers  ---
+rem ----------------------------------------- 
+Object.create Turbolasers
+Object.absolutePosition 818.55/68.87/972.70
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Turbolasers  ---
+rem ----------------------------------------- 
+Object.create Turbolasers
+Object.absolutePosition 873.98/69.29/972.76
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+
+
+rem ******************************************
+rem ** Extra rebel artillary tank at top of Mountain base
+rem ******************************************
+Object.create T_3ba
+Object.absolutePosition 653.62/104.69/1259.59
+Object.rotation 180.00/0.00/0.00
+Object.setTeam 2
+
+
+
+rem ******************************************
+rem ** Extra Tiefighter at top of Mountain base
+rem ******************************************
+Object.create Y_wing
+Object.absolutePosition 673.07/107.63/1242.00
+Object.rotation -135.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+
+
+
+rem ******************************************
+rem ** Extra rebel artillary tank at South outpost
+rem ******************************************
+Object.create T_3ba
+Object.absolutePosition 775.32/74.00/542.77
+Object.rotation -15.00/0.00/0.00
+Object.setTeam 2
+
+
+
+rem ******************************************
+rem ** Extra rebel tank at top of South outpost
+rem ******************************************
+Object.create Forward_firehawks
+Object.absolutePosition 760.09/92.22/422.84
+Object.rotation 90.00/0.00/0.00
+Object.setTeam 2
+
+
+
+rem ******************************************
+rem ** Extra rebel attack aircraft (ewing) at top of South outpost
+rem ******************************************
+Object.create T_3b_canyon
+Object.absolutePosition 765.16/91.17/383.81
+Object.rotation 135.00/0.00/0.00
+Object.setTeam 1
+
+
+
+rem ******************************************
+rem ** Extra rebel tank at IMP mainbase
+rem ******************************************
+Object.create Forward_firehawks
+Object.absolutePosition 843.01/72.24/1448.30
+Object.rotation 180.00/0.00/0.00
+Object.setTeam 1
+
+
+
+rem ******************************************
+rem ** Tie Interceptor at top (north) of IMP mainbase
+rem ******************************************
+Object.create Gain_Speeder
+Object.absolutePosition 869.82/96.55/1552.80
+Object.rotation 225.00/0.00/0.00
+Object.setTeam 1
+
+
+
+rem ******************************************
+rem ** Extra abandonned B-Wing out in the desert at top right corner of map
+rem ******************************************
+Object.create T_3b_canyon
+Object.absolutePosition 1699.33/141.99/1642.89
+Object.rotation 255.00/0.00/0.00
+Object.setTeam 2
+
+
+
+rem ******************************************
+rem ** Moved the X-wing to this position at Rebel main-base
+rem (was first spawned as spawner: Y_wing)
+rem ******************************************
+Object.create Y_wing
+Object.absolutePosition 1335.84/94.81/269.08
+Object.rotation -135/0.00/0.00
+Object.setTeam 2
+
+
+
+rem ******************************************
+rem ** Extra rebel attack aircraft (ewing) at Rebel main-base
+rem ******************************************
+Object.create T_3b_canyon
+Object.absolutePosition 1335.84/94.62/395.41
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+
+
+rem ******************************************
+rem ** Extra I.M.D.S. anti air at top of Rebel outpost
+rem ******************************************
+Object.create IMDS
+Object.absolutePosition 778.51/90.88/405.32
+Object.rotation -90.00/0.00/0.00
+Object.setTeam 1
+
+
+
+rem ******************************************
+rem ** Extra E-Web guns at Rebel main-base
+rem ******************************************
+
+rem ** North side white building
+Object.create Ewebs
+Object.absolutePosition 1334.39/94.89/356.89
+Object.rotation -49.00/0.00/0.00
+Object.setTeam 2
+
+rem ** South side white building
+Object.create Ewebs
+Object.absolutePosition 1333.49/97.02/332.93
+Object.rotation -101.00/0.00/0.00
+Object.setTeam 2
+
+
+
+rem ******************************************
+rem ** Droids at Rebel main-base
+rem ******************************************
+
+rem ** Droidspawner R5D4Control
+Object.create Trench_Turret
+Object.absolutePosition 1315.41/93.69/378.37
+Object.rotation 133.00/0.00/0.00
+Object.setTeam 2
+
+rem ** R2D2
+Object.create AP_Turret
+Object.absolutePosition 1349.13/94.94/353.05
+Object.rotation 230.50/0.00/0.00
+Object.setTeam 2
+
+
+
+rem ******************************************
+rem ** Droids at Imp main-base
+rem ******************************************
+
+rem ** Droidspawner R5D4ControlImperial upper Imp mainbase
+Object.create Trench_Turret
+Object.absolutePosition 784.79/95.45/1503.85
+Object.rotation 50.00/0.00/0.00
+Object.setTeam 1
+
+rem ** Droidspawner R5D4ControlImperial lower Imp mainbase
+Object.create Trench_Turret
+Object.absolutePosition 792.20/69.27/1362.45
+Object.rotation 47.00/0.00/0.00
+Object.setTeam 1
+
+
+
+rem ******************************************
+rem ** Extra turbolaser at top of hill by Ammocrate
+rem ****************************************** 
+Object.create Turbolasers
+Object.absolutePosition 947.40/122.00/970.47
+Object.rotation 80.00/0.00/0.00
+Object.setTeam 1
+
+
+
+rem ******************************************
+rem ** MilleniumFalcon Spawn vehicle for Rebels
+rem ****************************************** 
+Object.create IMDS
+Object.absolutePosition 732.26/92.85/404.39
+Object.rotation -35.00/0.00/0.00
+Object.setTeam 2
+
+
+
+rem ******************************************
+rem ** Lambda at top (north) of IMP mainbase
+rem ****************************************** 
+Object.create secret_missles
+Object.absolutePosition 834.88/96.10/1536.47
+Object.rotation 215.00/0.00/0.00
+Object.setTeam 1
+
+
+
+rem ******************************************
+rem ** Spawn vehicles needed for ctf spawns **
+rem ****************************************** 
+Object.create Mountain_outpost_guns
+Object.absolutePosition 200/2000/200
+Object.setTeam 1
+
+Object.create Mountain_outpost_guns
+Object.absolutePosition 250/2000/250
+Object.setTeam 2
+
+Object.create Air_Defence_Turbolasers
+Object.absolutePosition 300/2000/300
+Object.setTeam 1
+
+Object.create Air_Defence_Turbolasers
+Object.absolutePosition 350/2000/350
+Object.setTeam 2
+rem ****************************************** 
+
+
+
+rem *** improvised Rebel CTF Flagpole
+rem *** E-Web cluster with the gunbarrel tilted 90 degrees upward to act as CTF Flagpole
+rem ****
+Object.create Ewebs
+Object.absolutePosition 1318.08/94.79/321.57
+Object.rotation 0.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ewebs
+Object.absolutePosition 1318.08/94.79/321.57
+Object.rotation 45.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ewebs
+Object.absolutePosition 1318.08/94.79/321.57
+Object.rotation 90.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ewebs
+Object.absolutePosition 1318.08/94.79/321.57
+Object.rotation 135.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ewebs
+Object.absolutePosition 1318.08/94.79/321.57
+Object.rotation 180.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ewebs
+Object.absolutePosition 1318.08/94.79/321.57
+Object.rotation 225.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ewebs
+Object.absolutePosition 1318.08/94.79/321.57
+Object.rotation 270.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ewebs
+Object.absolutePosition 1318.08/94.79/321.57
+Object.rotation 315.00/-90.00/0.00
+Object.setTeam 2
+rem **********************************************
+
+
+
+rem *** improvised IMP CTF Flagpole
+rem *** E-Web cluster with the gunbarrel tilted 90 degrees upward to act as CTF Flagpole
+rem ****
+Object.create Ewebs
+Object.absolutePosition 826.69/69.50/1371.13
+Object.rotation 0.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ewebs
+Object.absolutePosition 826.69/69.50/1371.13
+Object.rotation 45.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ewebs
+Object.absolutePosition 826.69/69.50/1371.13
+Object.rotation 90.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ewebs
+Object.absolutePosition 826.69/69.50/1371.13
+Object.rotation 135.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ewebs
+Object.absolutePosition 826.69/69.50/1371.13
+Object.rotation 180.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ewebs
+Object.absolutePosition 826.69/69.50/1371.13
+Object.rotation 225.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ewebs
+Object.absolutePosition 826.69/69.50/1371.13
+Object.rotation 270.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ewebs
+Object.absolutePosition 826.69/69.50/1371.13
+Object.rotation 315.00/-90.00/0.00
+Object.setTeam 2
+rem **********************************************
+
+
+rem **** MODDED TO CREATE SPAWN POINT #1 FOR IMPERIALS (Team 1) ***
+rem **** Location: IMPs main base
+rem ****
+Object.create yt600impspawn2
+Object.absolutePosition 820.99/71.81/1415.66
+Object.rotation 180.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 853.65/69.05/1434.64
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 781.18/71.79/1430.22
+Object.rotation 180.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 797.11/69.29/1384.41
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 748.45/70.20/1400.84
+Object.rotation 40.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 827.58/70.96/1348.49
+Object.rotation 282.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 844.45/70.19/1410.75
+Object.rotation -5.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 782.86/87.44/1419.68
+Object.rotation 166.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 845.94/72.14/1354.47
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 778.56/70.19/1367.55
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 864.90/69.00/1434.49
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 760.41/69.40/1402.48
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 834.44/69.03/1434.58
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 824.07/70.77/1404.65
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 771.44/71.94/1429.71
+Object.rotation 180.00/0.00/0.00
+
+
+rem **** upper side of Imp main-base spawns
+rem ****
+
+Object.create yt600impspawn2
+Object.absolutePosition 812.03/94.99/1520.35
+
+Object.create yt600impspawn2
+Object.absolutePosition 863.87/97.00/1506.66
+Object.rotation -20.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 816.90/94.87/1501.23
+Object.rotation 90.00/0.00/0.00
+
+Object.create yt600impspawn2
+Object.absolutePosition 785.03/88.67/1484.62
+
+Object.create yt600impspawn2
+Object.absolutePosition 820.39/95.84/1514.10
+Object.rotation 180.00/0.00/0.00
+
+
+
+rem **** MODDED TO CREATE SPAWN POINT #2 FOR IMPERIALS (Team 1) ***
+rem **** Location: IMP Mountain_Outpost
+rem ****
+Object.create yt600impspawn
+Object.absolutePosition 663.35/120.83/1252.27
+Object.rotation -182.96/0.00/0.00
+
+Object.create yt600impspawn
+Object.absolutePosition 670.61/105.38/1253.90
+Object.rotation -269.39/0.00/0.00
+
+Object.create yt600impspawn
+Object.absolutePosition 674.95/105.44/1223.87
+Object.rotation -46.04/0.00/0.00
+
+Object.create yt600impspawn
+Object.absolutePosition 629.23/106.28/1249.47
+Object.rotation 90.00/0.00/0.00
+
+Object.create yt600impspawn
+Object.absolutePosition 635.96/103.62/1236.24
+Object.rotation 89.60/0.00/0.00
+
+Object.create yt600impspawn
+Object.absolutePosition 642.84/103.62/1255.55
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600impspawn
+Object.absolutePosition 656.86/103.62/1243.80
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600impspawn
+Object.absolutePosition 658.57/103.62/1243.55
+Object.rotation 0.00/0.00/0.00
+
+
+
+rem **** MODDED TO CREATE SPAWN POINT #1 FOR REBELS (Team 2) ***
+rem **** Location: Allied Main Base
+rem ****
+Object.create yt600rebspawn
+Object.absolutePosition 1324.62/96.40/332.66
+Object.rotation -88.16/0.00/0.00
+
+Object.create yt600rebspawn
+Object.absolutePosition 1295.30/94.65/326.16
+Object.rotation 64.73/0.00/0.00
+
+Object.create yt600rebspawn
+Object.absolutePosition 1341.85/96.87/331.08
+Object.rotation -89.68/0.00/0.00
+
+Object.create yt600rebspawn
+Object.absolutePosition 1312.42/93.98/309.16
+Object.rotation -78.49/0.00/0.00
+
+Object.create yt600rebspawn
+Object.absolutePosition 1338.92/94.83/359.54
+Object.rotation -204.76/0.00/0.00
+
+Object.create yt600rebspawn
+Object.absolutePosition 1349.01/95.00/364.66
+Object.rotation 64.00/0.00/0.00
+
+Object.create yt600rebspawn
+Object.absolutePosition 1344.33/97.09/335.70
+Object.rotation -138.47/0.00/0.00
+
+Object.create yt600rebspawn
+Object.absolutePosition 1323.49/94.91/294.10
+Object.rotation 280.00/0.00/0.00
+
+Object.create yt600rebspawn
+Object.absolutePosition 1325.45/93.65/362.59
+Object.rotation -89.43/0.00/0.00
+
+Object.create yt600rebspawn
+Object.absolutePosition 1314.36/93.66/380.83
+Object.rotation -182.36/0.00/0.00
+
+Object.create yt600rebspawn
+Object.absolutePosition 1344.22/94.71/359.31
+Object.rotation -23.48/0.00/0.00
+
+Object.create yt600rebspawn
+Object.absolutePosition 1342.33/95.01/361.43
+Object.rotation -115.64/0.00/0.00
+
+Object.create yt600rebspawn
+Object.absolutePosition 1351.41/94.81/363.39
+Object.rotation -25.21/0.00/0.00
+
+Object.create yt600rebspawn
+Object.absolutePosition 1320.91/94.30/304.65
+Object.rotation 76.99/0.00/0.00
+
+
+
+rem **** MODDED TO CREATE SPAWN POINT #2 FOR REBELS (Team 2) ***
+rem **** Rebels: Air_defence_base
+rem ****
+Object.create yt600rebspawn2
+Object.absolutePosition 799.37/72.53/548.30
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600rebspawn2
+Object.absolutePosition 746.03/72.53/548.20
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600rebspawn2
+Object.absolutePosition 754.55/72.53/579.82
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600rebspawn2
+Object.absolutePosition 771.21/72.53/574.06
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600rebspawn2
+Object.absolutePosition 786.46/72.54/555.13
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600rebspawn2
+Object.absolutePosition 747.06/72.53/555.48
+Object.rotation 0.00/0.00/0.00
+
+
+rem **** Forward_Fire_Base_Spawns
+rem ****
+Object.create yt600rebspawn2
+Object.absolutePosition 773.74/90.76/418.52
+Object.rotation 0.00/0.00/0.00
+
+Object.create yt600rebspawn2
+Object.absolutePosition 775.95/90.64/394.43
+Object.rotation 0.00/0.00/0.00
