@@ -1,0 +1,406 @@
+rem ----------------------------------------- 
+rem ---  transport  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner transport
+ObjectTemplate.setObjectTemplate 1 yt600-3
+ObjectTemplate.setObjectTemplate 2 yt600
+objecttemplate.HoldObject 1
+objecttemplate.minspawndelay 9999
+objecttemplate.maxspawndelay 9999
+objecttemplate.spawndelayatstart 0
+objecttemplate.timetolive 9999
+objecttemplate.distance 9999
+rem objecttemplate.damagewhenlost 10
+
+rem ----------------------------------------- 
+rem ---  Imperial_ATST  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Imperial_ATST
+ObjectTemplate.setObjectTemplate 1 yt600-4
+ObjectTemplate.setObjectTemplate 2 yt600-2
+objecttemplate.HoldObject 1
+objecttemplate.minspawndelay 9999
+objecttemplate.maxspawndelay 9999
+objecttemplate.spawndelayatstart 0
+objecttemplate.timetolive 9999
+objecttemplate.distance 9999
+rem objecttemplate.damagewhenlost 10
+
+
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Ground_Defence
+ObjectTemplate.setObjectTemplate 1 firehawke
+ObjectTemplate.setObjectTemplate 2 eweb
+ObjectTemplate.MinSpawnDelay 60
+ObjectTemplate.MaxSpawnDelay 90
+ObjectTemplate.SpawnDelayAtStart 0
+objecttemplate.timetolive 9999
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Bunker_Door  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Bunker_Door
+ObjectTemplate.setObjectTemplate 1 mousedroidcontrol
+ObjectTemplate.setObjectTemplate 2 endor_bunkerdoor
+ObjectTemplate.MinSpawnDelay 9999
+ObjectTemplate.MaxSpawnDelay 10000
+ObjectTemplate.SpawnDelayAtStart 0
+objecttemplate.timetolive 9999
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 1
+
+rem ----------------------------------------- 
+rem ---  Imperial_Droid  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Imperial_Droid
+ObjectTemplate.setObjectTemplate 1 gain-135
+ObjectTemplate.setObjectTemplate 2 atstendor
+ObjectTemplate.MinSpawnDelay 30
+ObjectTemplate.MaxSpawnDelay 35
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Heavy_Weapons
+ObjectTemplate.setObjectTemplate 1 speederbike
+ObjectTemplate.setObjectTemplate 2 impskiff
+ObjectTemplate.MinSpawnDelay 30
+ObjectTemplate.MaxSpawnDelay 35
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 2
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  R2D2x_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner R2D2x_Spawn1
+ObjectTemplate.setObjectTemplate 1 atst-v
+ObjectTemplate.setObjectTemplate 2 r2d2
+ObjectTemplate.MinSpawnDelay 60
+ObjectTemplate.MaxSpawnDelay 61
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 1
+
+rem ----------------------------------------- 
+rem ---  EwokGlider_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner EwokGlider_Spawn1
+ObjectTemplate.setObjectTemplate 1 slave1
+ObjectTemplate.setObjectTemplate 2 ewokglider
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Platform_lift_cabine  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Platform_lift_cabine
+ObjectTemplate.setObjectTemplate 1 lift_cabine
+ObjectTemplate.setObjectTemplate 2 avturret
+ObjectTemplate.MinSpawnDelay 9999
+ObjectTemplate.MaxSpawnDelay 10000
+ObjectTemplate.SpawnDelayAtStart 0
+objecttemplate.timetolive 9999
+ObjectTemplate.Distance 0
+rem ObjectTemplate.DamageWhenLost 0
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+
+
+rem ******* SPAWN POINTS ************
+rem *****************************************
+
+rem ----------------------------------------- 
+rem ---  Rebel_Landing_Spawn1  ---
+rem ----------------------------------------- 
+Object.create yt600rebspawn2
+Object.absolutePosition 439.72/131.50/168.90
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Landing_Spawn2  ---
+rem ----------------------------------------- 
+Object.create yt600rebspawn2
+Object.absolutePosition 437.78/131.45/169.58
+Object.rotation 6.50/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Landing_Spawn3  ---
+rem ----------------------------------------- 
+Object.create yt600rebspawn2
+Object.absolutePosition 430.70/126.72/249.97
+Object.rotation -152.90/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Landing_Spawn4  ---
+rem ----------------------------------------- 
+Object.create yt600rebspawn2
+Object.absolutePosition 407.64/127.16/166.02
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Landing_Spawn5  ---
+rem ----------------------------------------- 
+Object.create yt600rebspawn2
+Object.absolutePosition 454.67/126.65/191.19
+Object.rotation 0.00/0.00/0.00
+
+
+
+rem ----------------------------------------- 
+rem ---  Ewok_Village_Spawn1  ---
+rem ----------------------------------------- 
+Object.create yt600rebspawn
+Object.absolutePosition 246.07/157.32/367.98
+Object.rotation 114.60/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Ewok_Village_Spawn2  ---
+rem ----------------------------------------- 
+Object.create yt600rebspawn
+Object.absolutePosition 221.71/148.53/316.42
+Object.rotation -9.70/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Ewok_Village_Spawn3  ---
+rem ----------------------------------------- 
+Object.create yt600rebspawn
+Object.absolutePosition 233.76/132.99/365.55
+Object.rotation 128.40/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Ewok_Village_Spawn4  ---
+rem ----------------------------------------- 
+Object.create yt600rebspawn
+Object.absolutePosition 291.46/132.55/340.62
+Object.rotation 139.40/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Ewok_Village_Spawn5  ---
+rem ----------------------------------------- 
+Object.create yt600rebspawn
+Object.absolutePosition 191.85/142.99/410.79
+Object.rotation 28.90/0.00/0.00
+
+
+
+rem ----------------------------------------- 
+rem ---  Imperial_Outpost_Spawn1  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn
+Object.absolutePosition 506.98/121.75/513.62
+Object.rotation -90.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Outpost_Spawn2  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn
+Object.absolutePosition 470.35/121.76/518.48
+Object.rotation 90.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Outpost_Spawn3  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn
+Object.absolutePosition 458.23/116.82/557.95
+Object.rotation 169.10/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Outpost_Spawn4  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn
+Object.absolutePosition 547.44/116.99/545.31
+Object.rotation -124.80/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Outpost_Spawn5  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn
+Object.absolutePosition 535.67/118.91/483.52
+Object.rotation -96.40/0.00/0.00
+
+
+
+beginrem
+
+rem ----------------------------------------- 
+rem ---  Landing_Platform_Spawn1  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn2
+Object.absolutePosition 417.72/136.16/729.71
+Object.rotation 91.10/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Landing_Platform_Spawn2  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn2
+Object.absolutePosition 367.41/157.96/766.68
+Object.rotation 135.71/0.00/0.00
+
+endrem
+
+rem ----------------------------------------- 
+rem ---  Landing_Platform_Spawn3  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn2
+Object.absolutePosition 371.61/137.03/759.13
+Object.rotation 94.10/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Landing_Platform_Spawn4  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn2
+Object.absolutePosition 414.77/114.82/759.88
+Object.rotation -180.80/0.00/0.00
+
+beginrem
+
+rem ----------------------------------------- 
+rem ---  Landing_Platform_Spawn5  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn2
+Object.absolutePosition 371.19/136.18/760.84
+Object.rotation -90.70/0.00/0.00
+
+endrem
+
+
+
+rem *****************************************************************
+rem ***  Extra soldier spawn #1 inside the AT-AT at Landing_Platform  ***
+rem *****************************************************************
+Object.create yt600impspawn2
+Object.absolutePosition 428.95/136.99/734.19
+Object.rotation -80.00/0.00/0.00
+
+rem *****************************************************************
+rem ***  Extra soldier spawn #2 inside the AT-AT at Landing_Platform  ***
+rem *****************************************************************
+Object.create yt600impspawn2
+Object.absolutePosition 414.06/136.99/729.02
+Object.rotation 38.00/0.00/0.00
+
+rem *****************************************************************
+rem ***  Extra soldier spawn #3 inside the AT-AT at Landing_Platform  ***
+rem *****************************************************************
+Object.create yt600impspawn2
+Object.absolutePosition 425.53/137.09/733.25
+Object.rotation -97.00/0.00/0.00
+
+
+
+rem ----------------------------------------- 
+rem ---  Bunker_Spawn1  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn2
+Object.absolutePosition 602.69/113.30/812.21
+Object.rotation -359.42/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Bunker_Spawn2  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn2
+Object.absolutePosition 604.68/113.25/870.34
+Object.rotation -119.80/0.00/0.00
+
+
+beginrem
+
+rem ----------------------------------------- 
+rem ---  Bunker_Spawn3  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn2
+Object.absolutePosition 659.83/113.23/846.61
+Object.rotation -40.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Bunker_Spawn4  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn2
+Object.absolutePosition 635.55/113.10/857.87
+Object.rotation -60.70/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Bunker_Spawn5  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn2
+Object.absolutePosition 669.72/113.23/892.26
+Object.rotation -177.80/0.00/0.00
+
+endrem
+
+
+rem **** Allways spawn without entering these vehicles
+rem ****
+ObjectTemplate.Active yt600impspawn
+ObjectTemplate.SetEnterOnSpawn 0
+
+ObjectTemplate.Active yt600impspawn2
+ObjectTemplate.SetEnterOnSpawn 0
+
+ObjectTemplate.Active yt600rebspawn
+ObjectTemplate.SetEnterOnSpawn 0
+
+ObjectTemplate.Active yt600rebspawn2
+ObjectTemplate.SetEnterOnSpawn 0
+
+
+rem **** Make it impossible to enter the Spawner vehicles
+rem ****
+ObjectTemplate.Active yt600Entry
+ObjectTemplate.setEntryRadius 0
+
+ObjectTemplate.Active yt600Entry2
+ObjectTemplate.setEntryRadius 0
+
+
+
+rem **** Make the Slave1 enter at a greater distance, so it is easier to take-off
+rem ****
+ObjectTemplate.Active Slave1Entry
+ObjectTemplate.setEntryRadius 9
+
+
+
+rem **** Make the AVTurret stationary guns enter at longer distance, so
+rem **** so you enter it from below at the bunkers
+rem ****
+ObjectTemplate.Active AVTurretEntry
+ObjectTemplate.setEntryRadius 8
+
+
+
+rem **** Make the EWEB stationary guns enter only at short distance, so
+rem **** so you can't get stuck in the middle of a bunch of them at my
+rem **** improvised CTF flagpoles :-)
+rem ****
+ObjectTemplate.Active Eweb_Entry
+ObjectTemplate.setEntryRadius 1.2

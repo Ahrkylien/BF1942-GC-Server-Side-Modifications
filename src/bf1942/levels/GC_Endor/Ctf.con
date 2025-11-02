@@ -1,0 +1,14 @@
+run Ctf/ObjectSpawnTemplates
+run Ctf/ObjectSpawns
+
+rem *** CREATE FLAG BASES (the actual ctf flags) ***
+
+rem (This is the Rebel flag at the Ewok_Village)
+object.create usbase
+Object.absolutePosition 272.64/157.14/355.00
+Object.Rotation 0/0/0
+
+rem (This is the Imperial flag at the Landing_Platform)
+object.create gebase
+Object.absolutePosition 371.48/152.86/735.58
+Object.Rotation 0/0/0

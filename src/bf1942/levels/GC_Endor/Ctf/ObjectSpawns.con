@@ -1,0 +1,499 @@
+
+rem ******************************************
+rem ** Spawn vehicles needed for ctf spawns **
+rem ****************************************** 
+
+Object.create transport
+Object.absolutePosition 200/2000/200
+Object.setTeam 1
+
+Object.create transport
+Object.absolutePosition 250/2000/250
+Object.setTeam 2
+
+Object.create Imperial_ATST
+Object.absolutePosition 300/2000/300
+Object.setTeam 1
+
+Object.create Imperial_ATST
+Object.absolutePosition 350/2000/350
+Object.setTeam 2
+rem ****************************************** 
+
+
+rem ----------------------------------------- 
+rem ---  transport  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 157.07/141.61/237.32
+Object.rotation -10.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  transport  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 625.66/140.14/282.05
+Object.rotation 90.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Imperial_ATST  ---
+rem ----------------------------------------- 
+Object.create Imperial_Droid
+Object.absolutePosition 401.29/114.72/757.45
+Object.rotation -180.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Extra ATST-endor #1  ---
+rem ----------------------------------------- 
+Object.create Imperial_Droid
+Object.absolutePosition 613.42/115.98/830.09
+Object.rotation -90.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Extra ATST-endor #2  ---
+rem ----------------------------------------- 
+Object.create Imperial_Droid
+Object.absolutePosition 472.63/124.06/546.65
+Object.rotation 55.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Gain-135 spawner #1 ---
+rem ----------------------------------------- 
+Object.create Imperial_Droid
+Object.absolutePosition 669.19/133.39/699.62
+Object.rotation -96.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Gain-135 spawner #2 ---
+rem ----------------------------------------- 
+Object.create Imperial_Droid
+Object.absolutePosition 423.41/128.99/157.32
+Object.rotation -98.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 489.02/121.81/501.60
+Object.rotation 180.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 489.06/121.78/529.54
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 457.91/126.73/194.96
+Object.rotation 45.00/0.00/0.00
+Object.setTeam 2
+
+
+rem ************************************
+rem ** extra Eweb stationary gun #1 at ewok village **
+rem ************************************
+Object.create Ground_Defence
+Object.absolutePosition 218.75/148.55/319.14
+Object.rotation -47.00/0.00/0.00
+Object.setTeam 2
+
+rem ************************************
+rem ** extra Eweb stationary gun #2 at ewok village **
+rem ************************************
+Object.create Ground_Defence
+Object.absolutePosition 299.42/148.75/283.93
+Object.rotation -100.00/0.00/0.00
+Object.setTeam 2
+
+
+rem ----------------------------------------- 
+rem ---  Imperial_ATST  ---
+rem ----------------------------------------- 
+Object.create R2D2x_Spawn1
+Object.absolutePosition 596.6/113.12/871.80
+Object.rotation 265.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  transport  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 570.94/113.66/837.74
+Object.rotation 270.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  transport  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 381.35/115.57/759.36
+Object.rotation 180.00/0.00/0.00
+Object.setTeam 1
+
+
+rem ************************************
+rem ***  EXTRA  speederbike at landing pad  ***
+rem ************************************
+Object.create Heavy_Weapons
+Object.absolutePosition 386.35/115.57/759.36
+Object.rotation 180.00/0.00/0.00
+Object.setTeam 1
+
+rem ************************************
+rem ***  EXTRA  speederbike  at ewok village ***
+rem ************************************
+Object.create Heavy_Weapons
+Object.absolutePosition 352.05/133.57/235.08
+Object.rotation 120.00/0.00/0.00
+Object.setTeam 1
+
+
+rem ----------------------------------------- 
+rem ---  transport  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 520.88/119.76/516.92
+Object.rotation -362.59/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 371.45/136.17/737.21
+Object.rotation -180.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 444.75/136.23/760.35
+Object.rotation 90.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  transport  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 687.28/135.96/651.84
+Object.rotation 199.20/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 643.92/137.43/652.81
+Object.rotation -90.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Bunker_Door  ---
+rem ----------------------------------------- 
+Object.create Bunker_Door
+Object.absolutePosition 582.66/113.19/849.79
+Object.rotation 90.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Imperial_Droid  ---
+rem ----------------------------------------- 
+Object.create Bunker_Door
+Object.absolutePosition 417.88/114.76/760.57
+Object.rotation -80.80/0.00/0.00
+Object.setTeam 1
+
+
+beginrem
+rem ****** no more heavy gun kit spawners, the vehicle spawner is now used for firehawke *****
+rem *******
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 621.34/107.80/850.00
+Object.rotation 74.70/-69.42/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 622.02/107.79/850.72
+Object.rotation -83.95/-75.83/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 264.22/158.17/373.07
+Object.rotation -36.85/0.87/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 631.89/143.51/291.12
+Object.rotation -38.53/0.00/0.00
+Object.setTeam 1
+
+endrem
+
+
+rem ----------------------------------------- 
+rem ---  Imperial_Droid  ---
+rem ----------------------------------------- 
+Object.create Bunker_Door
+Object.absolutePosition 474.24/121.66/512.30
+Object.rotation 180.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 394.59/126.06/582.22
+Object.rotation 45.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 621.86/141.26/290.37
+Object.rotation -45.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  R2D2x_Spawn1  ---
+rem ----------------------------------------- 
+Object.create R2D2x_Spawn1
+Object.absolutePosition 448.22/126.76/193.83
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  EwokGlider_Spawn1  ---
+rem ----------------------------------------- 
+Object.create EwokGlider_Spawn1
+Object.absolutePosition 286.38/157.37/342.60
+Object.rotation -156.13/0.00/0.00
+Object.setTeam 2
+
+rem ************************************
+rem **** Extra ewok glider at ewok village ****
+rem ************************************
+Object.create EwokGlider_Spawn1
+Object.absolutePosition 256.66/158.05/359.30
+Object.rotation 157.50/0.00/0.00
+Object.setTeam 2
+
+rem ************************************
+rem **** Extra ewok glider at destroyed ewok village ****
+rem ************************************
+Object.create EwokGlider_Spawn1
+Object.absolutePosition 817.32/133.01/679.88
+Object.rotation 150/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Platform_lift_cabine  ---
+rem ----------------------------------------- 
+Object.create Platform_lift_cabine
+Object.absolutePosition 369.01/115.00/763.76
+Object.rotation -170.49/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Platform_lift_cabine  ---
+rem ----------------------------------------- 
+Object.create Platform_lift_cabine
+Object.absolutePosition 423.78/115.00/764.39
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Imperial_Droid  ---
+rem ----------------------------------------- 
+Object.create Bunker_Door
+Object.absolutePosition 419.29/136.01/756.97
+Object.rotation -133.38/0.00/0.00
+Object.setTeam 1
+
+
+rem ************************************
+rem ** SLAVE1 on top of Landingpad **
+rem ************************************
+Object.create EwokGlider_Spawn1
+Object.absolutePosition 437.37/156.50/759.93
+Object.rotation -45.00/0.00/0.00
+Object.setTeam 1
+
+
+rem ************************************
+rem ** impskiff #1 on top of Landingpad **
+rem ************************************
+Object.create Heavy_Weapons
+Object.absolutePosition 396.96/153.77/743.33
+Object.rotation 180.00/0.00/0.00
+Object.setTeam 2
+
+
+rem ************************************
+rem ** impskiff #2 on top of Landingpad **
+rem ************************************
+Object.create Heavy_Weapons
+Object.absolutePosition 396.96/153.77/780.18
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 2
+
+
+rem ************************************
+rem ** avturret #1 at top of bunker center **
+rem ************************************
+Object.create Platform_lift_cabine
+Object.absolutePosition 489.37/128.80/516.02
+Object.rotation 225.00/0.00/0.00
+Object.setTeam 2
+
+rem ************************************
+rem ** avturret #2 at top of bunker east **
+rem ************************************
+Object.create Platform_lift_cabine
+Object.absolutePosition 658.55/144.03/652.75
+Object.rotation 260.00/0.00/0.00
+Object.setTeam 2
+
+rem ************************************
+rem ** avturret north west of ewok village **
+rem ************************************
+Object.create Platform_lift_cabine
+Object.absolutePosition 197.48/142.73/404.39
+Object.rotation 50.00/0.00/0.00
+Object.setTeam 2
+
+
+rem ********************************
+rem ***  Firehawke spawner #1 ****
+rem ********************************
+Object.create Ground_Defence
+Object.absolutePosition 356.70/117.51/748.07
+Object.rotation 135.00/0.00/0.00
+Object.setTeam 1
+
+rem ********************************
+rem ***  Firehawke spawner #2 ****
+rem ********************************
+Object.create Ground_Defence
+Object.absolutePosition 421.36/118.09/777.65
+Object.rotation 90.00/0.00/0.00
+Object.setTeam 1
+
+
+
+rem *** improvised Rebel CTF Flagpole
+rem *** E-Web cluster with the gunbarrel tilted 90 degrees upward to act as CTF Flagpole
+rem ****
+Object.create Ground_Defence
+Object.absolutePosition 272.64/157.00/355.00
+Object.rotation 0.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ground_Defence
+Object.absolutePosition 272.64/157.00/355.00
+Object.rotation 45.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ground_Defence
+Object.absolutePosition 272.64/157.00/355.00
+Object.rotation 90.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ground_Defence
+Object.absolutePosition 272.64/157.00/355.00
+Object.rotation 135.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ground_Defence
+Object.absolutePosition 272.64/157.00/355.00
+Object.rotation 180.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ground_Defence
+Object.absolutePosition 272.64/157.00/355.00
+Object.rotation 225.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ground_Defence
+Object.absolutePosition 272.64/157.00/355.00
+Object.rotation 270.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ground_Defence
+Object.absolutePosition 272.64/157.00/355.00
+Object.rotation 315.00/-90.00/0.00
+Object.setTeam 2
+rem **********************************************
+
+
+
+rem *** improvised IMP CTF Flagpole
+rem *** E-Web cluster with the gunbarrel tilted 90 degrees upward to act as CTF Flagpole
+rem ****
+Object.create Ground_Defence
+Object.absolutePosition 371.48/152.72/735.58
+Object.rotation 0.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ground_Defence
+Object.absolutePosition 371.48/152.72/735.58
+Object.rotation 45.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ground_Defence
+Object.absolutePosition 371.48/152.72/735.58
+Object.rotation 90.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ground_Defence
+Object.absolutePosition 371.48/152.72/735.58
+Object.rotation 135.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ground_Defence
+Object.absolutePosition 371.48/152.72/735.58
+Object.rotation 180.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ground_Defence
+Object.absolutePosition 371.48/152.72/735.58
+Object.rotation 225.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ground_Defence
+Object.absolutePosition 371.48/152.72/735.58
+Object.rotation 270.00/-90.00/0.00
+Object.setTeam 2
+
+Object.create Ground_Defence
+Object.absolutePosition 371.48/152.72/735.58
+Object.rotation 315.00/-90.00/0.00
+Object.setTeam 2
+rem **********************************************
