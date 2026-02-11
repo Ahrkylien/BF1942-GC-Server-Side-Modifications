@@ -1,0 +1,118 @@
+
+rem ----------------------------------------- 
+rem ---  droidcapsulespawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner spawner
+ObjectTemplate.setObjectTemplate 1 yt600-3
+ObjectTemplate.setObjectTemplate 2 yt600
+objecttemplate.HoldObject 1
+objecttemplate.minspawndelay 9999
+objecttemplate.maxspawndelay 9999
+objecttemplate.spawndelayatstart 0
+objecttemplate.timetolive 9999
+objecttemplate.distance 9999
+rem objecttemplate.damagewhenlost 10
+
+
+rem ******* SPAWN POINTS ************
+rem *****************************************
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn1  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn2
+Object.absolutePosition 385.98/99.76/771.50
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Flag_Spawn1  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn2
+Object.absolutePosition 400.16/99.76/773.31
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn2  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn2
+Object.absolutePosition 392.73/99.76/778.01
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Flag_Spawn2  ---
+rem ----------------------------------------- 
+Object.create yt600impspawn2
+Object.absolutePosition 393.13/99.76/761.42
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Imp_Side_Spawn4 ---
+rem ----------------------------------------- 
+Object.create yt600impspawn2
+Object.absolutePosition 433.96/83.84/638.11
+Object.rotation -46.00/0.00/0.00
+
+
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn1  ---
+rem ----------------------------------------- 
+Object.create yt600rebspawn
+Object.absolutePosition 433.56/102.20/482.07
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn2  ---
+rem ----------------------------------------- 
+Object.create yt600rebspawn
+Object.absolutePosition 425.92/102.20/475.40
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn3  ---
+rem ----------------------------------------- 
+Object.create yt600rebspawn
+Object.absolutePosition 420.33/102.20/481.97
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn4  ---
+rem ----------------------------------------- 
+Object.create yt600rebspawn
+Object.absolutePosition 427.27/102.20/486.87
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Rebel_Side_Spawn3  ---
+rem ----------------------------------------- 
+Object.create yt600rebspawn
+Object.absolutePosition 423.06/84.51/589.57
+Object.rotation -120.50/0.00/0.00
+
+
+
+rem ******* MISC  SETTINGS ***********
+rem *****************************************
+
+rem **** Allways spawn without entering these vehicles
+rem ****
+ObjectTemplate.Active yt600impspawn
+ObjectTemplate.SetEnterOnSpawn 0
+
+ObjectTemplate.Active yt600rebspawn
+ObjectTemplate.SetEnterOnSpawn 0
+
+ObjectTemplate.Active yt600impspawn2
+ObjectTemplate.SetEnterOnSpawn 0
+
+ObjectTemplate.Active yt600rebspawn2
+ObjectTemplate.SetEnterOnSpawn 0
+
+
+rem **** Make it impossible to enter the Spawner vehicles
+rem ****
+ObjectTemplate.Active yt600Entry
+ObjectTemplate.setEntryRadius 0
+
+ObjectTemplate.Active yt600Entry2
+ObjectTemplate.setEntryRadius 0

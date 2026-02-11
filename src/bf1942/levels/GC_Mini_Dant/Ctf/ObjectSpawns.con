@@ -1,0 +1,228 @@
+rem ***
+Object.create tl-21_kit_spawner
+Object.absolutePosition 1063.8/63.9149/995.269
+Object.rotation 0.00/0.00/90.00
+Object.setTeam 1
+
+rem ***
+Object.create tl-21_kit_spawner
+Object.absolutePosition 1063.33/64.02/995.378
+Object.rotation 0.00/0.00/-90.00
+Object.setTeam 1
+
+rem ***
+Object.create tl-21_kit_spawner
+Object.absolutePosition 928.489/63.7303/860.194
+Object.rotation 0.00/0.00/90.00
+Object.setTeam 1
+
+rem ***
+Object.create tl-21_kit_spawner
+Object.absolutePosition 929.175/63.7321/860.109
+Object.rotation 0.00/0.00/-90.00
+Object.setTeam 1
+rem **********************************************
+
+
+
+rem ***** extra Gun-pickup spawn, small house IMP base side
+rem *****
+Object.create tl-21_kit_spawner
+Object.absolutePosition 1108.45/63.40/979.09
+Object.Rotation -5/0/90
+Object.setTeam 1
+
+rem ***** extra Gun-pickup spawn, small house Rebel base side
+rem *****
+Object.create tl-21_kit_spawner
+Object.absolutePosition 981.14/62.40/890.64
+Object.Rotation 50/0/90
+Object.setTeam 1
+
+rem ***** extra Gun-pickup spawn, in top of tower IMP base side
+rem *****
+Object.create tl-21_kit_spawner
+Object.absolutePosition 1133.18/81.10/996.05
+Object.Rotation 180/22.5/0
+Object.setTeam 1
+
+rem ***** extra Gun-pickup spawn, in top of tower Rebel base side
+rem *****
+Object.create tl-21_kit_spawner
+Object.absolutePosition 980.51/80.74/836.46
+Object.Rotation 0/22.5/0
+Object.setTeam 1
+rem **********************************************
+
+
+
+rem ***** I.M.D.S. anti-air turret, Rebel base side
+rem *****
+Object.create tl-21_kit_spawner
+Object.absolutePosition 937.19/63.00/833.22
+Object.Rotation 50/0/0
+Object.setTeam 2
+
+rem ***** I.M.D.S. anti-air turret, IMP base side
+rem *****
+Object.create tl-21_kit_spawner
+Object.absolutePosition 1081.48/63.00/1023.77
+Object.Rotation 100/0/0
+Object.setTeam 2
+rem **********************************************
+
+
+
+rem *** improvised Rebel CTF Flagpole
+rem *** E-Web cluster with the gunbarrel tilted 90 degrees upward to act as CTF Flagpole
+rem ****
+Object.create droid_capsule_s
+Object.absolutePosition 959.016/62.29/848.886
+Object.rotation 0.00/-90.00/0.00
+Object.setTeam 1
+
+Object.create droid_capsule_s
+Object.absolutePosition 959.016/62.29/848.886
+Object.rotation 45.00/-90.00/0.00
+Object.setTeam 1
+
+Object.create droid_capsule_s
+Object.absolutePosition 959.016/62.29/848.886
+Object.rotation 90.00/-90.00/0.00
+Object.setTeam 1
+
+Object.create droid_capsule_s
+Object.absolutePosition 959.016/62.29/848.886
+Object.rotation 135.00/-90.00/0.00
+Object.setTeam 1
+
+Object.create droid_capsule_s
+Object.absolutePosition 959.016/62.29/848.886
+Object.rotation 180.00/-90.00/0.00
+Object.setTeam 1
+
+Object.create droid_capsule_s
+Object.absolutePosition 959.016/62.29/848.886
+Object.rotation 225.00/-90.00/0.00
+Object.setTeam 1
+
+Object.create droid_capsule_s
+Object.absolutePosition 959.016/62.29/848.886
+Object.rotation 270.00/-90.00/0.00
+Object.setTeam 1
+
+Object.create droid_capsule_s
+Object.absolutePosition 959.016/62.29/848.886
+Object.rotation 315.00/-90.00/0.00
+Object.setTeam 1
+rem **********************************************
+
+
+
+rem *** improvised IMP CTF Flagpole
+rem *** E-Web cluster with the gunbarrel tilted 90 degrees upward to act as CTF Flagpole
+rem ****
+Object.create droid_capsule_s
+Object.absolutePosition 1103.75/62.21/1045.76
+Object.rotation 0.00/-90.00/0.00
+Object.setTeam 1
+
+Object.create droid_capsule_s
+Object.absolutePosition 1103.75/62.21/1045.76
+Object.rotation 45.00/-90.00/0.00
+Object.setTeam 1
+
+Object.create droid_capsule_s
+Object.absolutePosition 1103.75/62.21/1045.76
+Object.rotation 90.00/-90.00/0.00
+Object.setTeam 1
+
+Object.create droid_capsule_s
+Object.absolutePosition 1103.75/62.21/1045.76
+Object.rotation 135.00/-90.00/0.00
+Object.setTeam 1
+
+Object.create droid_capsule_s
+Object.absolutePosition 1103.75/62.21/1045.76
+Object.rotation 180.00/-90.00/0.00
+Object.setTeam 1
+
+Object.create droid_capsule_s
+Object.absolutePosition 1103.75/62.21/1045.76
+Object.rotation 225.00/-90.00/0.00
+Object.setTeam 1
+
+Object.create droid_capsule_s
+Object.absolutePosition 1103.75/62.21/1045.76
+Object.rotation 270.00/-90.00/0.00
+Object.setTeam 1
+
+Object.create droid_capsule_s
+Object.absolutePosition 1103.75/62.21/1045.76
+Object.rotation 315.00/-90.00/0.00
+Object.setTeam 1
+rem **********************************************
+
+
+
+rem  ***
+rem  *** impskiff (miniature 2 seater aircraft) at IMP base
+Object.create droid_capsule_s
+Object.absolutePosition 1096.00/64.93/1004.21
+Object.rotation 90.00/0.00/0.00
+Object.setTeam 2
+
+rem  ***
+rem  *** impskiff (miniature 2 seater aircraft) at Rebel base
+Object.create droid_capsule_s
+Object.absolutePosition 961.41/64.69/868.59
+Object.rotation 90.00/0.00/0.00
+Object.setTeam 2
+rem **********************************************
+
+
+
+rem  ***
+rem  *** E-Web heavy repeating blaster #1 at IMP base (near base)
+Object.create droid_capsule_s
+Object.absolutePosition 1137.05/62.83/1005.84
+Object.rotation 250.00/0.00/0.00
+Object.setTeam 1
+
+rem  ***
+rem  *** E-Web heavy repeating blaster #2 at IMP base (outside base)
+Object.create droid_capsule_s
+Object.absolutePosition 960.16/65.59/1037.66
+Object.rotation 160.00/0.00/0.00
+Object.setTeam 1
+
+rem  ***
+rem  *** E-Web heavy repeating blaster #1 at REBEL base (near base)
+Object.create droid_capsule_s
+Object.absolutePosition 940.32/63.14/887.10
+Object.rotation 115.00/0.00/0.00
+Object.setTeam 1
+
+rem  ***
+rem  *** E-Web heavy repeating blaster #2 at REBEL base (outside base)
+Object.create droid_capsule_s
+Object.absolutePosition 958.69/56.88/923.31
+Object.rotation 55.00/0.00/0.00
+Object.setTeam 1
+rem **********************************************
+
+
+
+rem ***
+rem *** THE REQUIRED DUMMY SPAWNER-VEHICLE FOR IMPERIALS (Team 1)
+Object.create lambdaspawn
+Object.absolutePosition 1024/2200/1024
+Object.setOSId 1
+Object.setTeam 1
+
+rem ***
+rem *** THE REQUIRED DUMMY SPAWNER-VEHICLE FOR REBELS (Team 2)
+Object.create lambdaspawn
+Object.absolutePosition 1024/2000/1024
+Object.setOSId 2
+Object.setTeam 2
