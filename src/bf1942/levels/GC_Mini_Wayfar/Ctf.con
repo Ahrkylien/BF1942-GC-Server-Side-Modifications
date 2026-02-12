@@ -9,11 +9,11 @@ rem ----------------------------------------------------------------------------
 
    rem *** CREATE FLAG BASES ***
    object.create usbase
-   Object.absolutePosition 396.12/111.81/559.77
+   Object.absolutePosition 525.70/76.11/631.78
    Object.Rotation 0/0/0
 
    object.create gebase
-   Object.absolutePosition 394.03/114.29/660.62
+   Object.absolutePosition 522.06/76.13/470.06
    Object.Rotation 0/0/0
 
 rem ----------------------------------------------------------------------------
@@ -23,12 +23,11 @@ rem ----- Join
 rem ----------------------------------------------------------------------------
    rem *** CREATE FLAG BASES ***
    object.create flagbase_m1
-   Object.absolutePosition 396.12/111.81/559.77
+   Object.absolutePosition 525.70/76.11/631.78
    Object.Rotation 0/0/0
 
    object.create flagbase_m1
-   Object.absolutePosition 394.03/114.29/660.62
+   Object.absolutePosition 522.06/76.13/470.06
    Object.Rotation 0/0/0
 rem ----------------------------------------------------------------------------
 endIf
-
