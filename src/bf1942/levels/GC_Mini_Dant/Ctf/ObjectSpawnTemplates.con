@@ -31,6 +31,57 @@ ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
 
+rem remove SpawnPoints from PCOs
+ObjectTemplate.Active yt600
+ObjectTemplate.removeTemplate 1
+
+ObjectTemplate.Active yt600-1
+ObjectTemplate.removeTemplate 1
+
+ObjectTemplate.Active yt600-3
+ObjectTemplate.removeTemplate 1
+
+ObjectTemplate.Active yt600-4
+ObjectTemplate.removeTemplate 1
+
+
+rem **** Allways spawn without entering these vehicles
+rem ****
+ObjectTemplate.Active yt600impspawn
+ObjectTemplate.SetEnterOnSpawn 0
+
+ObjectTemplate.Active yt600impspawn2
+ObjectTemplate.SetEnterOnSpawn 0
+
+ObjectTemplate.Active yt600rebspawn
+ObjectTemplate.SetEnterOnSpawn 0
+
+ObjectTemplate.Active yt600rebspawn2
+ObjectTemplate.SetEnterOnSpawn 0
+
+
+rem **** Make it impossible to enter the Spawner vehicles
+rem ****
+ObjectTemplate.Active yt600Entry
+ObjectTemplate.setEntryRadius 0
+
+ObjectTemplate.Active yt600Entry2
+ObjectTemplate.setEntryRadius 0
+
+rem **** Make the MedUnit 'transparant' so you can't run into them
+rem ****
+ObjectTemplate.Active MedUnit
+ObjectTemplate.hasCollisionPhysics 0
+
+
+rem **** Make the EWEB stationary guns enter only at short distance, so
+rem **** so you can't get stuck in the middle of a bunch of them at my
+rem **** improvised CTF flagpoles :-)
+rem ****
+ObjectTemplate.Active Eweb_Entry
+ObjectTemplate.setEntryRadius 1.2
+
+
 
 rem **** MODDED TO CREATE SPAWN POINTS FOR IMPERIALS (Team 1) ***
 rem ****
@@ -98,40 +149,3 @@ Object.rotation 45/0/0
 Object.create yt600rebspawn
 Object.absolutePosition 1003.61/65.10/818.28
 Object.rotation -88/0/0
-
-
-rem **** Allways spawn without entering these vehicles
-rem ****
-ObjectTemplate.Active yt600impspawn
-ObjectTemplate.SetEnterOnSpawn 0
-
-ObjectTemplate.Active yt600impspawn2
-ObjectTemplate.SetEnterOnSpawn 0
-
-ObjectTemplate.Active yt600rebspawn
-ObjectTemplate.SetEnterOnSpawn 0
-
-ObjectTemplate.Active yt600rebspawn2
-ObjectTemplate.SetEnterOnSpawn 0
-
-
-rem **** Make it impossible to enter the Spawner vehicles
-rem ****
-ObjectTemplate.Active yt600Entry
-ObjectTemplate.setEntryRadius 0
-
-ObjectTemplate.Active yt600Entry2
-ObjectTemplate.setEntryRadius 0
-
-rem **** Make the MedUnit 'transparant' so you can't run into them
-rem ****
-ObjectTemplate.Active MedUnit
-ObjectTemplate.hasCollisionPhysics 0
-
-
-rem **** Make the EWEB stationary guns enter only at short distance, so
-rem **** so you can't get stuck in the middle of a bunch of them at my
-rem **** improvised CTF flagpoles :-)
-rem ****
-ObjectTemplate.Active Eweb_Entry
-ObjectTemplate.setEntryRadius 1.2
