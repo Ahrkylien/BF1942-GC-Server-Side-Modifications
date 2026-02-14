@@ -2,12 +2,12 @@ rem ******************************************
 rem ** Spawn vehicles needed for ctf spawns **
 rem ****************************************** 
 
-Object.create spawner
+Object.create yt600Spawner
 Object.absolutePosition 394.41/3113.76/766.48
 Object.rotation 147.00/0.00/0.00
-Object.setTeam 1
+Object.setTeam 3
 
-Object.create spawner
+Object.create yt600Spawner
 Object.absolutePosition 427.73/3116.20/482.25
 Object.rotation -39.00/0.00/0.00
-Object.setTeam 2
+Object.setTeam 1

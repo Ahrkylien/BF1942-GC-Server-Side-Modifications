@@ -3,21 +3,22 @@ rem ******************************************
 rem ** Spawn vehicles needed for ctf spawns **
 rem ****************************************** 
 
-Object.create transport
+Object.create yt600Spawner
 Object.absolutePosition 200/2000/200
 Object.setTeam 1
 
-Object.create transport
+Object.create yt600Spawner
 Object.absolutePosition 250/2000/250
 Object.setTeam 2
 
-Object.create Imperial_ATST
+Object.create yt600Spawner
 Object.absolutePosition 300/2000/300
-Object.setTeam 1
+Object.setTeam 3
 
-Object.create Imperial_ATST
+Object.create yt600Spawner
 Object.absolutePosition 350/2000/350
-Object.setTeam 2
+Object.setTeam 4
+
 rem ****************************************** 
 
 

@@ -214,15 +214,13 @@ rem **********************************************
 
 
 rem ***
-rem *** THE REQUIRED DUMMY SPAWNER-VEHICLE FOR IMPERIALS (Team 1)
-Object.create lambdaspawn
+rem *** THE REQUIRED DUMMY SPAWNER-VEHICLE FOR IMPERIALS
+Object.create yt600Spawner
 Object.absolutePosition 1024/2200/1024
-Object.setOSId 1
-Object.setTeam 1
+Object.setTeam 3
 
 rem ***
-rem *** THE REQUIRED DUMMY SPAWNER-VEHICLE FOR REBELS (Team 2)
-Object.create lambdaspawn
+rem *** THE REQUIRED DUMMY SPAWNER-VEHICLE FOR REBELS
+Object.create yt600Spawner
 Object.absolutePosition 1024/2000/1024
-Object.setOSId 2
-Object.setTeam 2
+Object.setTeam 1
