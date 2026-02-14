@@ -818,21 +818,21 @@ Object.setTeam 1
 rem ******************************************
 rem ** Spawn vehicles needed for ctf spawns **
 rem ****************************************** 
-Object.create Mountain_outpost_guns
+Object.create yt600Spawner
 Object.absolutePosition 200/2000/200
 Object.setTeam 1
 
-Object.create Mountain_outpost_guns
+Object.create yt600Spawner
 Object.absolutePosition 250/2000/250
 Object.setTeam 2
 
-Object.create Air_Defence_Turbolasers
+Object.create yt600Spawner
 Object.absolutePosition 300/2000/300
-Object.setTeam 1
+Object.setTeam 3
 
-Object.create Air_Defence_Turbolasers
+Object.create yt600Spawner
 Object.absolutePosition 350/2000/350
-Object.setTeam 2
+Object.setTeam 4
 rem ****************************************** 
 
 

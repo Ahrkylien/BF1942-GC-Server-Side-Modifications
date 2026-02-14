@@ -104,34 +104,6 @@ ObjectTemplate.maxNrOfObjectSpawned 2
 rem ObjectTemplate.teamOnVehicle 0
 
 rem ----------------------------------------- 
-rem ---  Air_Defence_Turbolasers  ---
-rem ----------------------------------------- 
-ObjectTemplate.create ObjectSpawner Air_Defence_Turbolasers
-ObjectTemplate.setObjectTemplate 1 yt600-3
-ObjectTemplate.setObjectTemplate 2 yt600
-objecttemplate.HoldObject 1
-objecttemplate.minspawndelay 9999
-objecttemplate.maxspawndelay 9999
-objecttemplate.spawndelayatstart 0
-objecttemplate.timetolive 9999
-objecttemplate.distance 9999
-objecttemplate.damagewhenlost 10
-
-rem ----------------------------------------- 
-rem ---  Mountain_outpost_guns  ---
-rem ----------------------------------------- 
-ObjectTemplate.create ObjectSpawner Mountain_outpost_guns
-ObjectTemplate.setObjectTemplate 1 yt600-4
-ObjectTemplate.setObjectTemplate 2 yt600-2
-objecttemplate.HoldObject 1
-objecttemplate.minspawndelay 9999
-objecttemplate.maxspawndelay 9999
-objecttemplate.spawndelayatstart 0
-objecttemplate.timetolive 9999
-objecttemplate.distance 9999
-objecttemplate.damagewhenlost 10
-
-rem ----------------------------------------- 
 rem ---  Trench_Turret  ---
 rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner Trench_Turret
@@ -352,29 +324,8 @@ ObjectTemplate.maxNrOfObjectSpawned 1
 rem ObjectTemplate.teamOnVehicle 0
 
 
+run UseYt600AsSpawnpoint
 
-rem **** Allways spawn without entering these vehicles
-rem ****
-ObjectTemplate.Active yt600impspawn
-ObjectTemplate.SetEnterOnSpawn 0
-
-ObjectTemplate.Active yt600impspawn2
-ObjectTemplate.SetEnterOnSpawn 0
-
-ObjectTemplate.Active yt600rebspawn
-ObjectTemplate.SetEnterOnSpawn 0
-
-ObjectTemplate.Active yt600rebspawn2
-ObjectTemplate.SetEnterOnSpawn 0
-
-
-rem **** Make it impossible to enter the Spawner vehicles
-rem ****
-ObjectTemplate.Active yt600Entry
-ObjectTemplate.setEntryRadius 0
-
-ObjectTemplate.Active yt600Entry2
-ObjectTemplate.setEntryRadius 0
 
 rem **** Make the MedUnit 'transparant' so you can't run into them
 rem ****

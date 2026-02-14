@@ -1,0 +1,42 @@
+rem - remove SpawnPoints from PCOs
+ObjectTemplate.Active yt600
+ObjectTemplate.removeTemplate 1
+
+ObjectTemplate.Active yt600-1
+ObjectTemplate.removeTemplate 1
+
+ObjectTemplate.Active yt600-3
+ObjectTemplate.removeTemplate 1
+
+ObjectTemplate.Active yt600-4
+ObjectTemplate.removeTemplate 1
+
+rem - Allways spawn without entering these vehicles
+ObjectTemplate.Active yt600impspawn
+ObjectTemplate.SetEnterOnSpawn 0
+
+ObjectTemplate.Active yt600impspawn2
+ObjectTemplate.SetEnterOnSpawn 0
+
+ObjectTemplate.Active yt600rebspawn
+ObjectTemplate.SetEnterOnSpawn 0
+
+ObjectTemplate.Active yt600rebspawn2
+ObjectTemplate.SetEnterOnSpawn 0
+
+rem - Make it impossible to enter the Spawner vehicles
+ObjectTemplate.Active yt600Entry
+ObjectTemplate.setEntryRadius 0
+
+ObjectTemplate.Active yt600Entry2
+ObjectTemplate.setEntryRadius 0
+
+
+ObjectTemplate.create ObjectSpawner yt600Spawner
+ObjectTemplate.setObjectTemplate 1 yt600
+ObjectTemplate.setObjectTemplate 2 yt600-2
+ObjectTemplate.setObjectTemplate 3 yt600-3
+ObjectTemplate.setObjectTemplate 4 yt600-4
+ObjectTemplate.spawnDelay 0
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.holdObject 1
