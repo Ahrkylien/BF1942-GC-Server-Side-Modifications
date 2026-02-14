@@ -1,0 +1,9 @@
+run UseYt600AsSpawnpoint
+
+Object.create yt600Spawner
+Object.absolutePosition 400/2200/400
+Object.setTeam 3
+
+Object.create yt600Spawner
+Object.absolutePosition 400/2000/400
+Object.setTeam 1
