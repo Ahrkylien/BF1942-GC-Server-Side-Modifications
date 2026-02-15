@@ -1,0 +1,29 @@
+beginrem
+Objective mode in bf1942 can only have 1 defending team. Two teams with objectives is not really supported.
+On this map the defending team is the Rebels.
+The tickets of the defending team is a percentage of their objectives health (thus starting at 100).
+On this map the Imperials tickets are also linked to their fleets health.
+In order to get their tickets to start at 100 we need to ajust some settings.
+For some reason the number of tickets (which is set by setNumberOfTickets) gets mulitplied by 4 (I think this is hardcoded).
+Thus we set it to 25.
+Some other server/admin settings should be hardcoded here shuch that the tickets remain starting at 100 (such that they are a nice percentage).
+endrem
+admin.setTicketRatio 1
+game.serverTicketRatio 100
+game.objectiveAttackerTicketsMod 100
+
+Game.setNumberOfTickets 1 25
+Game.setTicketLostPerMin 1 0
+Game.setTicketLostPerMin 2 0
+
+
+run ObjectiveMode/ObjectSpawnTemplates
+run ObjectiveMode/ControlPointTemplates
+run ObjectiveMode/ObjectiveSpawnerTemplates 
+
+if v_arg1 == host
+	run ObjectiveMode/ObjectSpawns
+	run ObjectiveMode/ObjectiveSpawners 
+endIf
+
+run ObjectiveMode/ObjectiveCommon 

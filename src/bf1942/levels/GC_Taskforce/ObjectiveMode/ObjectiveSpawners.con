@@ -69,14 +69,14 @@ object.setName CarrackSpawner02
 Object.create DestroyTurbineObjectiveSpawner03
 object.setName LancerSpawner01
 
-Object.create DestroyTurbineObjectiveSpawner04
-object.setName LancerSpawner02
+rem Object.create DestroyTurbineObjectiveSpawner04
+rem object.setName LancerSpawner02
 
 Object.create DestroyTurbineObjectiveSpawner05
 object.setName RunnerSpawner01
 
-Object.create DestroyTurbineObjectiveSpawner06
-object.setName RunnerSpawner02
+rem Object.create DestroyTurbineObjectiveSpawner06
+rem object.setName RunnerSpawner02
 
 Object.create DestroyTurbineObjectiveSpawner07
 object.setName NebSpawner01
